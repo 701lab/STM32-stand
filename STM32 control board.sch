@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5340,19 +5340,19 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="GND34" gate="1" x="344.17" y="163.83" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="346.71" y="161.29" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="+3V28" gate="G$1" x="29.21" y="176.53" smashed="yes">
-<attribute name="VALUE" x="30.48" y="175.26" size="1.778" layer="96"/>
+<instance part="+3V28" gate="G$1" x="121.92" y="180.34" smashed="yes">
+<attribute name="VALUE" x="123.19" y="179.07" size="1.778" layer="96"/>
 </instance>
-<instance part="GND35" gate="1" x="64.77" y="161.29" smashed="yes">
-<attribute name="VALUE" x="62.23" y="158.75" size="1.778" layer="96"/>
+<instance part="GND35" gate="1" x="121.92" y="149.86" smashed="yes">
+<attribute name="VALUE" x="119.38" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="R18" gate="G$1" x="38.1" y="167.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="171.2214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="40.64" y="165.862" size="1.778" layer="96" rot="R180"/>
+<instance part="R18" gate="G$1" x="121.92" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="123.19" y="166.5986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="123.19" y="174.498" size="1.778" layer="96"/>
 </instance>
-<instance part="D6" gate="G$1" x="54.61" y="167.64" smashed="yes">
-<attribute name="NAME" x="56.642" y="164.084" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="56.642" y="161.925" size="1.778" layer="96" rot="MR0"/>
+<instance part="D6" gate="G$1" x="121.92" y="157.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="123.698" y="155.956" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="123.698" y="161.925" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -6451,8 +6451,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="57.15" y1="167.64" x2="64.77" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="64.77" y1="167.64" x2="64.77" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="154.94" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -6637,8 +6636,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <segment>
 <pinref part="+3V28" gate="G$1" pin="+3V3"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="29.21" y1="173.99" x2="29.21" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="177.8" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -6962,7 +6960,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <net name="N$7" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="167.64" x2="49.53" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="165.1" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="A"/>
 </segment>
 </net>
