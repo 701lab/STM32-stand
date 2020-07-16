@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4285,7 +4285,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="VDD1" library="Hople_supply" library_urn="urn:adsk.eagle:library:16851455" deviceset="VDD" device=""/>
-<part name="C1" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" deviceset="C-EU-CERAMIC" device="1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF"/>
+<part name="C1" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" deviceset="C-EU-CERAMIC" device="1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF">
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL31B106KOHNNNE"/>
+</part>
 <part name="U2" library="LDOs" library_urn="urn:adsk.eagle:library:17045322" deviceset="TPS7A1901DRBT" device="SON8" package3d_urn="urn:adsk.eagle:package:17045929/4" value="TPS7A19"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="3V3" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="TEST_RING" device="" package3d_urn="urn:adsk.eagle:package:13096607/4"/>
@@ -4445,23 +4447,23 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <attribute name="SHEET" x="373.38" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="304.8" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U1" gate="A" x="187.96" y="243.84" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="187.96" y="250.19" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="187.96" y="153.67" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="U1" gate="A" x="185.42" y="243.84" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="185.42" y="250.19" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="185.42" y="153.67" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="U1" gate="B" x="292.1" y="243.84" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="292.1" y="250.19" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<instance part="U1" gate="B" x="289.56" y="243.84" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="289.56" y="250.19" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 <instance part="U1" gate="C" x="48.26" y="134.62" smashed="yes" grouprefs="MICROCONTROLLER_BYPASS">
 <attribute name="NAME" x="48.26" y="140.97" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="48.26" y="105.41" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="X1" gate="G$1" x="363.22" y="236.22" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="372.0967" y="236.22665" size="1.782659375" layer="95"/>
-<attribute name="VALUE" x="372.0999" y="233.6704" size="1.78155" layer="96"/>
+<instance part="X1" gate="G$1" x="360.68" y="236.22" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="369.5567" y="236.22665" size="1.782659375" layer="95"/>
+<attribute name="VALUE" x="369.5599" y="233.6704" size="1.78155" layer="96"/>
 </instance>
-<instance part="GND19" gate="1" x="363.22" y="224.79" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="365.76" y="222.25" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND19" gate="1" x="360.68" y="224.79" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="363.22" y="222.25" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND1" gate="1" x="81.28" y="100.33" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_BYPASS">
 <attribute name="VALUE" x="83.82" y="97.79" size="1.778" layer="96" rot="MR0"/>
@@ -4469,23 +4471,23 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="+3V1" gate="G$1" x="39.37" y="144.78" smashed="yes" grouprefs="MICROCONTROLLER_BYPASS">
 <attribute name="VALUE" x="40.64" y="143.51" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V10" gate="G$1" x="345.44" y="228.6" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="346.71" y="227.33" size="1.778" layer="96"/>
+<instance part="+3V10" gate="G$1" x="342.9" y="228.6" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="344.17" y="227.33" size="1.778" layer="96"/>
 </instance>
-<instance part="SW1" gate="A" x="358.14" y="213.36" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="361.95" y="217.17" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="353.06" y="208.026" size="1.778" layer="96" font="vector"/>
+<instance part="SW1" gate="A" x="355.6" y="213.36" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="359.41" y="217.17" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="350.52" y="208.026" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND20" gate="1" x="368.554" y="196.85" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="371.094" y="194.31" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND20" gate="1" x="366.014" y="196.85" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="368.554" y="194.31" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C3" gate="G$1" x="356.87" y="203.2" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="359.41" y="205.74" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="359.41" y="200.66" size="1.778" layer="96" align="center-left"/>
+<instance part="C3" gate="G$1" x="354.33" y="203.2" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="356.87" y="205.74" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="356.87" y="200.66" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R3" gate="G$1" x="345.44" y="219.71" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="346.71" y="223.52" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="346.71" y="215.9" size="1.778" layer="95" align="center-left"/>
+<instance part="R3" gate="G$1" x="342.9" y="219.71" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="344.17" y="223.52" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="344.17" y="215.9" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="J6" gate="B" x="149.86" y="123.19" smashed="yes" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS">
 <attribute name="NAME" x="148.59" y="139.065" size="1.778" layer="95"/>
@@ -4612,22 +4614,22 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="3.0" gate="G$1" x="46.99" y="190.5" smashed="yes" rot="R90" grouprefs="POWER_STAGE">
 <attribute name="NAME" x="46.99" y="193.04" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="278.13" y="187.96" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="279.4" y="186.69" size="1.778" layer="96"/>
+<instance part="+3V8" gate="G$1" x="275.59" y="187.96" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="276.86" y="186.69" size="1.778" layer="96"/>
 </instance>
-<instance part="GND18" gate="1" x="278.13" y="167.64" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="280.67" y="165.1" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND18" gate="1" x="275.59" y="167.64" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="278.13" y="165.1" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="J2" gate="B" x="318.77" y="187.96" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="317.5" y="193.675" size="1.778" layer="95"/>
-<attribute name="VALUE" x="317.5" y="180.34" size="1.778" layer="95"/>
+<instance part="J2" gate="B" x="316.23" y="187.96" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="314.96" y="193.675" size="1.778" layer="95"/>
+<attribute name="VALUE" x="314.96" y="180.34" size="1.778" layer="95"/>
 </instance>
-<instance part="GND17" gate="1" x="311.15" y="180.34" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="313.69" y="177.8" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND17" gate="1" x="308.61" y="180.34" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="311.15" y="177.8" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="J3" gate="B" x="285.75" y="175.26" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="284.48" y="183.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="284.48" y="167.64" size="1.778" layer="95"/>
+<instance part="J3" gate="B" x="283.21" y="175.26" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="281.94" y="183.515" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.94" y="167.64" size="1.778" layer="95"/>
 </instance>
 <instance part="GND6" gate="1" x="135.89" y="107.95" smashed="yes" rot="MR0" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS">
 <attribute name="VALUE" x="138.43" y="105.41" size="1.778" layer="96" rot="MR0"/>
@@ -4644,8 +4646,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="+3V12" gate="G$1" x="247.65" y="142.24" smashed="yes" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS">
 <attribute name="VALUE" x="248.92" y="140.97" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="160.274" y="175.26" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="162.814" y="172.72" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND10" gate="1" x="157.734" y="175.26" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="160.274" y="172.72" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND7" gate="1" x="172.72" y="107.95" smashed="yes" rot="MR0" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS">
 <attribute name="VALUE" x="175.26" y="105.41" size="1.778" layer="96" rot="MR0"/>
@@ -4725,12 +4727,12 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="+3V16" gate="G$1" x="247.65" y="85.09" smashed="yes" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS">
 <attribute name="VALUE" x="248.92" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="J5" gate="B" x="318.77" y="166.37" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="317.5" y="172.085" size="1.778" layer="95"/>
-<attribute name="VALUE" x="317.5" y="158.75" size="1.778" layer="95"/>
+<instance part="J5" gate="B" x="316.23" y="166.37" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="314.96" y="172.085" size="1.778" layer="95"/>
+<attribute name="VALUE" x="314.96" y="158.75" size="1.778" layer="95"/>
 </instance>
-<instance part="GND25" gate="1" x="311.15" y="158.75" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="313.69" y="156.21" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND25" gate="1" x="308.61" y="158.75" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="311.15" y="156.21" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SW2" gate="A" x="151.13" y="34.29" smashed="yes" grouprefs="USER_BUTTONS">
 <attribute name="VALUE" x="146.05" y="29.21" size="1.778" layer="96"/>
@@ -4826,42 +4828,42 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="GND32" gate="1" x="266.7" y="13.97" smashed="yes" rot="MR0" grouprefs="USER_BUTTONS">
 <attribute name="VALUE" x="269.24" y="11.43" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D2" gate="G$1" x="370.84" y="120.65" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="372.11" y="123.19" size="1.778" layer="95" align="center-left"/>
+<instance part="D2" gate="G$1" x="368.3" y="120.65" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="369.57" y="123.19" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D3" gate="G$1" x="370.84" y="113.03" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="372.11" y="115.57" size="1.778" layer="95" align="center-left"/>
+<instance part="D3" gate="G$1" x="368.3" y="113.03" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="369.57" y="115.57" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D4" gate="G$1" x="370.84" y="105.41" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="372.11" y="107.95" size="1.778" layer="95" align="center-left"/>
+<instance part="D4" gate="G$1" x="368.3" y="105.41" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="369.57" y="107.95" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="RM1" gate="_1" x="353.06" y="120.65" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="355.6" y="123.4186" size="1.778" layer="95" align="center-left"/>
+<instance part="RM1" gate="_1" x="350.52" y="120.65" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="353.06" y="123.4186" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="RM1" gate="_2" x="353.06" y="113.03" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="355.6" y="115.7986" size="1.778" layer="95" align="center-left"/>
+<instance part="RM1" gate="_2" x="350.52" y="113.03" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="353.06" y="115.7986" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="RM1" gate="_3" x="353.06" y="105.41" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="355.6" y="108.1786" size="1.778" layer="95" align="center-left"/>
+<instance part="RM1" gate="_3" x="350.52" y="105.41" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="353.06" y="108.1786" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="RM1" gate="_4" x="353.06" y="97.79" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="355.6" y="100.5586" size="1.778" layer="95" align="center-left"/>
+<instance part="RM1" gate="_4" x="350.52" y="97.79" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="353.06" y="100.5586" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="GND33" gate="1" x="378.46" y="91.44" smashed="yes" rot="MR0" grouprefs="LED'S">
-<attribute name="VALUE" x="381" y="88.9" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND33" gate="1" x="375.92" y="91.44" smashed="yes" rot="MR0" grouprefs="LED'S">
+<attribute name="VALUE" x="378.46" y="88.9" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D5" gate="G$1" x="370.84" y="97.79" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="372.11" y="100.33" size="1.778" layer="95" align="center-left"/>
+<instance part="D5" gate="G$1" x="368.3" y="97.79" smashed="yes" grouprefs="LED'S">
+<attribute name="NAME" x="369.57" y="100.33" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="J4" gate="B" x="351.79" y="173.99" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="NAME" x="350.52" y="184.785" size="1.778" layer="95"/>
-<attribute name="VALUE" x="350.52" y="163.83" size="1.778" layer="95"/>
+<instance part="J4" gate="B" x="349.25" y="173.99" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="NAME" x="347.98" y="184.785" size="1.778" layer="95"/>
+<attribute name="VALUE" x="347.98" y="163.83" size="1.778" layer="95"/>
 </instance>
-<instance part="+3V27" gate="G$1" x="344.17" y="189.23" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="345.44" y="187.96" size="1.778" layer="96"/>
+<instance part="+3V27" gate="G$1" x="341.63" y="189.23" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="342.9" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND34" gate="1" x="344.17" y="163.83" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
-<attribute name="VALUE" x="346.71" y="161.29" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND34" gate="1" x="341.63" y="163.83" smashed="yes" rot="MR0" grouprefs="MICROCONTROLLER_AND_INTERFACES">
+<attribute name="VALUE" x="344.17" y="161.29" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="+3V28" gate="G$1" x="114.3" y="195.58" smashed="yes" grouprefs="POWER_STAGE">
 <attribute name="VALUE" x="115.57" y="194.31" size="1.778" layer="96"/>
@@ -4923,8 +4925,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PA0" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA0"/>
-<wire x1="182.88" y1="243.84" x2="180.34" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="243.84" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="243.84" x2="177.8" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="243.84" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J10" gate="B" pin="2"/>
@@ -4935,8 +4937,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PA1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA1"/>
-<wire x1="182.88" y1="241.3" x2="180.34" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="241.3" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="241.3" x2="177.8" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="241.3" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <wire x1="181.61" y1="77.47" x2="179.07" y2="77.47" width="0.1524" layer="91" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS"/>
@@ -4947,8 +4949,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PA2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA2"/>
-<wire x1="182.88" y1="238.76" x2="180.34" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="238.76" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="238.76" x2="177.8" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="238.76" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <wire x1="218.44" y1="77.47" x2="215.9" y2="77.47" width="0.1524" layer="91" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS"/>
@@ -4959,8 +4961,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PA3" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA3"/>
-<wire x1="182.88" y1="236.22" x2="180.34" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="236.22" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="236.22" x2="177.8" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="236.22" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="77.47" x2="254" y2="77.47" width="0.1524" layer="91" grouprefs="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS"/>
@@ -4971,8 +4973,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="ICM_CS" class="2">
 <segment>
 <pinref part="U1" gate="A" pin="PA4"/>
-<wire x1="182.88" y1="233.68" x2="179.07" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="233.68" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="233.68" x2="176.53" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="233.68" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="!CS"/>
@@ -4983,8 +4985,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="ICM_SCK" class="2">
 <segment>
 <pinref part="U1" gate="A" pin="PA5"/>
-<wire x1="182.88" y1="231.14" x2="179.07" y2="231.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="231.14" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="231.14" x2="176.53" y2="231.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="231.14" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="SCL/SCLK"/>
@@ -4995,8 +4997,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="ICM_MISO" class="2">
 <segment>
 <pinref part="U1" gate="A" pin="PA6"/>
-<wire x1="182.88" y1="228.6" x2="179.07" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="228.6" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="228.6" x2="176.53" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="228.6" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="AD0/SDO"/>
@@ -5007,8 +5009,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="ICM_MOSI" class="2">
 <segment>
 <pinref part="U1" gate="A" pin="PA7"/>
-<wire x1="182.88" y1="226.06" x2="179.07" y2="226.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="226.06" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="226.06" x2="176.53" y2="226.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="226.06" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="SDA/SDI"/>
@@ -5019,123 +5021,109 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="POWER_OUT1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA8"/>
-<wire x1="182.88" y1="223.52" x2="180.34" y2="223.52" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="223.52" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="223.52" x2="177.8" y2="223.52" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="223.52" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="POWER_OUT2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA9"/>
-<wire x1="182.88" y1="220.98" x2="180.34" y2="220.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="220.98" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="220.98" x2="177.8" y2="220.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="220.98" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="POWER_OUT3" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA10"/>
-<wire x1="182.88" y1="218.44" x2="180.34" y2="218.44" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="218.44" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="218.44" x2="177.8" y2="218.44" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="218.44" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="POWER_OUT4" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA11"/>
-<wire x1="182.88" y1="215.9" x2="180.34" y2="215.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="215.9" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="215.9" x2="177.8" y2="215.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="215.9" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="MOTOR_CS" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB0"/>
-<wire x1="182.88" y1="200.66" x2="179.07" y2="200.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="200.66" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="200.66" x2="176.53" y2="200.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="200.66" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="PB1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB1"/>
-<wire x1="182.88" y1="198.12" x2="180.34" y2="198.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="198.12" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="198.12" x2="177.8" y2="198.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="198.12" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="RM1" gate="_3" pin="1"/>
-<wire x1="347.98" y1="105.41" x2="345.44" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="345.44" y="105.41" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
+<wire x1="345.44" y1="105.41" x2="342.9" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
+<label x="342.9" y="105.41" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="PB2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB2"/>
-<wire x1="182.88" y1="195.58" x2="180.34" y2="195.58" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="195.58" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="195.58" x2="177.8" y2="195.58" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="195.58" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="RM1" gate="_4" pin="1"/>
-<wire x1="347.98" y1="97.79" x2="345.44" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="345.44" y="97.79" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
+<wire x1="345.44" y1="97.79" x2="342.9" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
+<label x="342.9" y="97.79" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="M_NSLEEP" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB3"/>
-<wire x1="182.88" y1="193.04" x2="179.07" y2="193.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="193.04" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="193.04" x2="176.53" y2="193.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="193.04" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="ENCODER_1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB4"/>
-<wire x1="182.88" y1="190.5" x2="179.07" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="190.5" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="190.5" x2="176.53" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="190.5" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="ENCODER_2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB5"/>
-<wire x1="182.88" y1="187.96" x2="179.07" y2="187.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="187.96" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="187.96" x2="176.53" y2="187.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="187.96" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="M_IN1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB6"/>
-<wire x1="182.88" y1="185.42" x2="179.07" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="185.42" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="185.42" x2="176.53" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="185.42" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="M_IN2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB7"/>
-<wire x1="182.88" y1="182.88" x2="179.07" y2="182.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="182.88" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="182.88" x2="176.53" y2="182.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="182.88" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="M_NFAULT" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB9"/>
-<wire x1="182.88" y1="177.8" x2="179.07" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="179.07" y="177.8" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-</segment>
-</net>
-<net name="FDCAN2_RX" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PB12"/>
-<wire x1="182.88" y1="170.18" x2="175.26" y2="170.18" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="175.26" y="170.18" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-</segment>
-</net>
-<net name="FDCAN2_TX" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PB13"/>
-<wire x1="182.88" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="175.26" y="167.64" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="177.8" x2="176.53" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="176.53" y="177.8" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="PB14" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB14"/>
-<wire x1="182.88" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="165.1" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="165.1" x2="177.8" y2="165.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="165.1" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="SW2" gate="A" pin="1"/>
@@ -5157,8 +5145,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PB15" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB15"/>
-<wire x1="182.88" y1="162.56" x2="180.34" y2="162.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="180.34" y="162.56" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="177.8" y="162.56" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="SW3" gate="A" pin="1"/>
@@ -5180,8 +5168,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PC0" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC0"/>
-<wire x1="248.92" y1="243.84" x2="251.46" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="243.84" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="243.84" x2="248.92" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="243.84" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -5193,8 +5181,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PC1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC1"/>
-<wire x1="248.92" y1="241.3" x2="251.46" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="241.3" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="241.3" x2="248.92" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="241.3" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -5206,8 +5194,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PC2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC2"/>
-<wire x1="248.92" y1="238.76" x2="251.46" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="238.76" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="238.76" x2="248.92" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="238.76" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -5219,8 +5207,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PC3" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC3"/>
-<wire x1="248.92" y1="236.22" x2="251.46" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="236.22" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="236.22" x2="248.92" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="236.22" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -5232,8 +5220,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="ICM_INT1" class="2">
 <segment>
 <pinref part="U1" gate="A" pin="PC4"/>
-<wire x1="248.92" y1="233.68" x2="252.73" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="252.73" y="233.68" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="233.68" x2="250.19" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="250.19" y="233.68" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="INT1"/>
@@ -5244,8 +5232,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="ICM_INT2" class="2">
 <segment>
 <pinref part="U1" gate="A" pin="PC5"/>
-<wire x1="248.92" y1="231.14" x2="252.73" y2="231.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="252.73" y="231.14" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="231.14" x2="250.19" y2="231.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="250.19" y="231.14" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="INT2"/>
@@ -5256,32 +5244,32 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PC6" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC6"/>
-<wire x1="248.92" y1="228.6" x2="251.46" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="228.6" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="228.6" x2="248.92" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="228.6" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="RM1" gate="_1" pin="1"/>
-<wire x1="347.98" y1="120.65" x2="345.44" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="345.44" y="120.65" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
+<wire x1="345.44" y1="120.65" x2="342.9" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
+<label x="342.9" y="120.65" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="PC7" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC7"/>
-<wire x1="248.92" y1="226.06" x2="251.46" y2="226.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="226.06" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="226.06" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="RM1" gate="_2" pin="1"/>
-<wire x1="347.98" y1="113.03" x2="345.44" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="345.44" y="113.03" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
+<wire x1="345.44" y1="113.03" x2="342.9" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
+<label x="342.9" y="113.03" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="PC13" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC13"/>
-<wire x1="248.92" y1="210.82" x2="251.46" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="210.82" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="210.82" x2="248.92" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="210.82" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="SW4" gate="A" pin="1"/>
@@ -5303,8 +5291,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PC14" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC14-OSC32_IN"/>
-<wire x1="248.92" y1="208.28" x2="251.46" y2="208.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="208.28" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="208.28" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="1"/>
@@ -5326,8 +5314,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD0" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD0"/>
-<wire x1="248.92" y1="200.66" x2="251.46" y2="200.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="200.66" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="200.66" x2="248.92" y2="200.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="200.66" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="3"/>
@@ -5338,8 +5326,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD1"/>
-<wire x1="248.92" y1="198.12" x2="251.46" y2="198.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="198.12" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="198.12" x2="248.92" y2="198.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="198.12" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="4"/>
@@ -5350,8 +5338,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD2"/>
-<wire x1="248.92" y1="195.58" x2="251.46" y2="195.58" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="195.58" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="195.58" x2="248.92" y2="195.58" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="195.58" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="5"/>
@@ -5362,8 +5350,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD3" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD3"/>
-<wire x1="248.92" y1="193.04" x2="251.46" y2="193.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="193.04" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="193.04" x2="248.92" y2="193.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="193.04" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="6"/>
@@ -5374,8 +5362,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD4" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD4"/>
-<wire x1="248.92" y1="190.5" x2="251.46" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="190.5" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="190.5" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="7"/>
@@ -5386,8 +5374,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD5" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD5"/>
-<wire x1="248.92" y1="187.96" x2="251.46" y2="187.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="187.96" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="187.96" x2="248.92" y2="187.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="187.96" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="8"/>
@@ -5398,8 +5386,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD6" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD6"/>
-<wire x1="248.92" y1="185.42" x2="251.46" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="185.42" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="185.42" x2="248.92" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="185.42" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="9"/>
@@ -5410,8 +5398,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD7" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD7"/>
-<wire x1="248.92" y1="182.88" x2="251.46" y2="182.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="182.88" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="182.88" x2="248.92" y2="182.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="182.88" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="10"/>
@@ -5422,8 +5410,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD8" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD8"/>
-<wire x1="248.92" y1="180.34" x2="251.46" y2="180.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="180.34" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="180.34" x2="248.92" y2="180.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="180.34" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="3"/>
@@ -5434,8 +5422,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD9" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD9"/>
-<wire x1="248.92" y1="177.8" x2="251.46" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="177.8" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="177.8" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="4"/>
@@ -5446,8 +5434,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD10" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD10"/>
-<wire x1="248.92" y1="175.26" x2="251.46" y2="175.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="175.26" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="175.26" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="5"/>
@@ -5458,8 +5446,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD11" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD11"/>
-<wire x1="248.92" y1="172.72" x2="251.46" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="172.72" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="172.72" x2="248.92" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="172.72" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="6"/>
@@ -5470,8 +5458,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD12" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD12"/>
-<wire x1="248.92" y1="170.18" x2="251.46" y2="170.18" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="170.18" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="170.18" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="7"/>
@@ -5482,8 +5470,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD13" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD13"/>
-<wire x1="248.92" y1="167.64" x2="251.46" y2="167.64" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="167.64" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="167.64" x2="248.92" y2="167.64" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="167.64" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="8"/>
@@ -5494,8 +5482,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD14" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD14"/>
-<wire x1="248.92" y1="165.1" x2="251.46" y2="165.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="165.1" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="165.1" x2="248.92" y2="165.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="165.1" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="9"/>
@@ -5506,8 +5494,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PD15" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD15"/>
-<wire x1="248.92" y1="162.56" x2="251.46" y2="162.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="251.46" y="162.56" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="162.56" x2="248.92" y2="162.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="248.92" y="162.56" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J7" gate="B" pin="10"/>
@@ -5518,8 +5506,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE14" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE14"/>
-<wire x1="287.02" y1="208.28" x2="284.48" y2="208.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="208.28" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="208.28" x2="281.94" y2="208.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="208.28" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="9"/>
@@ -5530,8 +5518,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE15" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE15"/>
-<wire x1="287.02" y1="205.74" x2="284.48" y2="205.74" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="205.74" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="205.74" x2="281.94" y2="205.74" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="205.74" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="10"/>
@@ -5542,8 +5530,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE13" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE13"/>
-<wire x1="287.02" y1="210.82" x2="284.48" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="210.82" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="210.82" x2="281.94" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="210.82" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="8"/>
@@ -5554,8 +5542,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE12" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE12"/>
-<wire x1="287.02" y1="213.36" x2="284.48" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="213.36" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="213.36" x2="281.94" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="213.36" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="7"/>
@@ -5566,8 +5554,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE11" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE11"/>
-<wire x1="287.02" y1="215.9" x2="284.48" y2="215.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="215.9" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="215.9" x2="281.94" y2="215.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="215.9" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="6"/>
@@ -5578,8 +5566,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE10" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE10"/>
-<wire x1="287.02" y1="218.44" x2="284.48" y2="218.44" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="218.44" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="218.44" x2="281.94" y2="218.44" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="218.44" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="5"/>
@@ -5590,8 +5578,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE9" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE9"/>
-<wire x1="287.02" y1="220.98" x2="284.48" y2="220.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="220.98" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="220.98" x2="281.94" y2="220.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="220.98" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="4"/>
@@ -5602,8 +5590,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE8" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE8"/>
-<wire x1="287.02" y1="223.52" x2="284.48" y2="223.52" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="223.52" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="223.52" x2="281.94" y2="223.52" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="223.52" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J9" gate="B" pin="3"/>
@@ -5614,8 +5602,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE7" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE7"/>
-<wire x1="287.02" y1="226.06" x2="284.48" y2="226.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="226.06" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="226.06" x2="281.94" y2="226.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="226.06" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="10"/>
@@ -5626,8 +5614,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE6" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE6"/>
-<wire x1="287.02" y1="228.6" x2="284.48" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="228.6" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="228.6" x2="281.94" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="228.6" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="9"/>
@@ -5638,8 +5626,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE5" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE5"/>
-<wire x1="287.02" y1="231.14" x2="284.48" y2="231.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="231.14" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="231.14" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="8"/>
@@ -5650,8 +5638,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE4" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE4"/>
-<wire x1="287.02" y1="233.68" x2="284.48" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="233.68" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="233.68" x2="281.94" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="233.68" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="7"/>
@@ -5662,8 +5650,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE3" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE3"/>
-<wire x1="287.02" y1="236.22" x2="284.48" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="236.22" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="236.22" x2="281.94" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="236.22" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="6"/>
@@ -5674,8 +5662,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE2" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE2"/>
-<wire x1="287.02" y1="238.76" x2="284.48" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="238.76" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="238.76" x2="281.94" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="238.76" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="5"/>
@@ -5686,8 +5674,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE1" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE1"/>
-<wire x1="287.02" y1="241.3" x2="284.48" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="241.3" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="241.3" x2="281.94" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="241.3" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="4"/>
@@ -5698,8 +5686,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="PE0" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PE0"/>
-<wire x1="287.02" y1="243.84" x2="284.48" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="284.48" y="243.84" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="284.48" y1="243.84" x2="281.94" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="281.94" y="243.84" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J8" gate="B" pin="3"/>
@@ -5709,21 +5697,21 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="363.22" y1="228.6" x2="363.22" y2="227.33" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="360.68" y1="228.6" x2="360.68" y2="227.33" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="X1" gate="G$1" pin="GND"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="A" pin="3"/>
-<wire x1="363.22" y1="213.36" x2="368.554" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="360.68" y1="213.36" x2="366.014" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="SW1" gate="A" pin="4"/>
-<wire x1="368.554" y1="213.36" x2="368.554" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="368.554" y1="210.82" x2="363.22" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="361.95" y1="203.2" x2="368.554" y2="203.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="368.554" y1="203.2" x2="368.554" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<junction x="368.554" y="210.82" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="368.554" y1="203.2" x2="368.554" y2="199.39" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<junction x="368.554" y="203.2" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="366.014" y1="213.36" x2="366.014" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="366.014" y1="210.82" x2="360.68" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="359.41" y1="203.2" x2="366.014" y2="203.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="366.014" y1="203.2" x2="366.014" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<junction x="366.014" y="210.82" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="366.014" y1="203.2" x2="366.014" y2="199.39" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<junction x="366.014" y="203.2" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
@@ -5836,21 +5824,21 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="278.13" y1="170.18" x2="278.13" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="278.13" y1="172.72" x2="280.67" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="275.59" y1="170.18" x2="275.59" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="275.59" y1="172.72" x2="278.13" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="J3" gate="B" pin="4"/>
 </segment>
 <segment>
 <pinref part="J2" gate="B" pin="3"/>
-<wire x1="313.69" y1="185.42" x2="311.15" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="311.15" y1="185.42" x2="311.15" y2="182.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="311.15" y1="185.42" x2="308.61" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="308.61" y1="185.42" x2="308.61" y2="182.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PB8-BOOT0"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="182.88" y1="180.34" x2="160.274" y2="180.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="160.274" y1="180.34" x2="160.274" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="180.34" x2="157.734" y2="180.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="157.734" y1="180.34" x2="157.734" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="J6" gate="B" pin="2"/>
@@ -5943,8 +5931,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <segment>
 <pinref part="J5" gate="B" pin="3"/>
 <pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="313.69" y1="163.83" x2="311.15" y2="163.83" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="311.15" y1="163.83" x2="311.15" y2="161.29" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="311.15" y1="163.83" x2="308.61" y2="163.83" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="308.61" y1="163.83" x2="308.61" y2="161.29" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="SW2" gate="A" pin="3"/>
@@ -6023,25 +6011,25 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="373.38" y1="120.65" x2="378.46" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="378.46" y1="120.65" x2="378.46" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="370.84" y1="120.65" x2="375.92" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="375.92" y1="120.65" x2="375.92" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="378.46" y1="113.03" x2="378.46" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="378.46" y1="105.41" x2="378.46" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="378.46" y1="97.79" x2="378.46" y2="93.98" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="373.38" y1="113.03" x2="378.46" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
-<junction x="378.46" y="113.03" grouprefs="LED'S"/>
+<wire x1="375.92" y1="113.03" x2="375.92" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="375.92" y1="105.41" x2="375.92" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="375.92" y1="97.79" x2="375.92" y2="93.98" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="370.84" y1="113.03" x2="375.92" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
+<junction x="375.92" y="113.03" grouprefs="LED'S"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="373.38" y1="105.41" x2="378.46" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
-<junction x="378.46" y="105.41" grouprefs="LED'S"/>
+<wire x1="370.84" y1="105.41" x2="375.92" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
+<junction x="375.92" y="105.41" grouprefs="LED'S"/>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="373.38" y1="97.79" x2="378.46" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-<junction x="378.46" y="97.79" grouprefs="LED'S"/>
+<wire x1="370.84" y1="97.79" x2="375.92" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
+<junction x="375.92" y="97.79" grouprefs="LED'S"/>
 </segment>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="344.17" y1="166.37" x2="344.17" y2="168.91" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="344.17" y1="168.91" x2="346.71" y2="168.91" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="341.63" y1="166.37" x2="341.63" y2="168.91" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="341.63" y1="168.91" x2="344.17" y2="168.91" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="J4" gate="B" pin="6"/>
 </segment>
 <segment>
@@ -6079,7 +6067,7 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<wire x1="345.44" y1="226.06" x2="345.44" y2="224.79" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="342.9" y1="226.06" x2="342.9" y2="224.79" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -6172,8 +6160,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<wire x1="280.67" y1="180.34" x2="278.13" y2="180.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="278.13" y1="180.34" x2="278.13" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="278.13" y1="180.34" x2="275.59" y2="180.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="275.59" y1="180.34" x2="275.59" y2="185.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="J3" gate="B" pin="1"/>
 </segment>
 <segment>
@@ -6246,8 +6234,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </segment>
 <segment>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
-<wire x1="346.71" y1="181.61" x2="344.17" y2="181.61" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="344.17" y1="181.61" x2="344.17" y2="186.69" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="344.17" y1="181.61" x2="341.63" y2="181.61" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="341.63" y1="181.61" x2="341.63" y2="186.69" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="J4" gate="B" pin="1"/>
 </segment>
 <segment>
@@ -6297,42 +6285,42 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </net>
 <net name="RST" class="0">
 <segment>
-<wire x1="340.36" y1="213.36" x2="345.44" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="345.44" y1="213.36" x2="345.44" y2="214.63" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="337.82" y1="213.36" x2="342.9" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="342.9" y1="213.36" x2="342.9" y2="214.63" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="SW1" gate="A" pin="1"/>
-<wire x1="353.06" y1="213.36" x2="350.774" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<junction x="345.44" y="213.36" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="350.52" y1="213.36" x2="348.234" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<junction x="342.9" y="213.36" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="SW1" gate="A" pin="2"/>
-<wire x1="350.774" y1="213.36" x2="345.44" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="353.06" y1="210.82" x2="350.774" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="350.774" y1="210.82" x2="350.774" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<junction x="350.774" y="213.36" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="354.33" y1="203.2" x2="350.774" y2="203.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="350.774" y1="203.2" x2="350.774" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<junction x="350.774" y="210.82" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="348.234" y1="213.36" x2="342.9" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="350.52" y1="210.82" x2="348.234" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="348.234" y1="210.82" x2="348.234" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<junction x="348.234" y="213.36" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="351.79" y1="203.2" x2="348.234" y2="203.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="348.234" y1="203.2" x2="348.234" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<junction x="348.234" y="210.82" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U1" gate="B" pin="PG10-NRST"/>
-<wire x1="337.82" y1="228.6" x2="340.36" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="340.36" y1="228.6" x2="340.36" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="335.28" y1="228.6" x2="337.82" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="337.82" y1="228.6" x2="337.82" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="OUT"/>
-<wire x1="375.92" y1="238.76" x2="373.38" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="373.38" y1="238.76" x2="370.84" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="U1" gate="B" pin="PF0-OSC_IN"/>
-<wire x1="337.82" y1="243.84" x2="375.92" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="375.92" y1="243.84" x2="375.92" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="335.28" y1="243.84" x2="373.38" y2="243.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="373.38" y1="243.84" x2="373.38" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="IN"/>
-<wire x1="347.98" y1="238.76" x2="353.06" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="345.44" y1="238.76" x2="350.52" y2="238.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="U1" gate="B" pin="PF1-OSC_OUT"/>
-<wire x1="347.98" y1="238.76" x2="347.98" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<wire x1="347.98" y1="241.3" x2="337.82" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="345.44" y1="238.76" x2="345.44" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="345.44" y1="241.3" x2="335.28" y2="241.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="+3V" class="0">
@@ -6396,50 +6384,50 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<wire x1="280.67" y1="177.8" x2="276.86" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="276.86" y="177.8" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="278.13" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="274.32" y="177.8" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="J3" gate="B" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PA13"/>
-<wire x1="182.88" y1="210.82" x2="177.8" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="177.8" y="210.82" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="210.82" x2="175.26" y2="210.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="175.26" y="210.82" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<wire x1="280.67" y1="175.26" x2="276.86" y2="175.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="276.86" y="175.26" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="278.13" y1="175.26" x2="274.32" y2="175.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="274.32" y="175.26" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 <pinref part="J3" gate="B" pin="3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PA14"/>
-<wire x1="182.88" y1="208.28" x2="177.8" y2="208.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="177.8" y="208.28" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="208.28" x2="175.26" y2="208.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="175.26" y="208.28" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="USART3_RX" class="0">
 <segment>
 <pinref part="J2" gate="B" pin="2"/>
-<wire x1="313.69" y1="187.96" x2="309.88" y2="187.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="309.88" y="187.96" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="311.15" y1="187.96" x2="307.34" y2="187.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="307.34" y="187.96" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PB11"/>
-<wire x1="182.88" y1="172.72" x2="181.61" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="181.61" y="172.72" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="172.72" x2="179.07" y2="172.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="179.07" y="172.72" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="USART3_TX" class="0">
 <segment>
 <pinref part="J2" gate="B" pin="1"/>
-<wire x1="313.69" y1="190.5" x2="309.88" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="309.88" y="190.5" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="311.15" y1="190.5" x2="307.34" y2="190.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="307.34" y="190.5" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PB10"/>
-<wire x1="182.88" y1="175.26" x2="181.61" y2="175.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="181.61" y="175.26" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="175.26" x2="179.07" y2="175.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="179.07" y="175.26" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -6483,108 +6471,101 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="I2C3_SCL" class="0">
 <segment>
 <pinref part="J5" gate="B" pin="2"/>
-<wire x1="313.69" y1="166.37" x2="309.88" y2="166.37" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="309.88" y="166.37" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="311.15" y1="166.37" x2="307.34" y2="166.37" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="307.34" y="166.37" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PC8"/>
-<wire x1="248.92" y1="223.52" x2="255.27" y2="223.52" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="255.27" y="223.52" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="223.52" x2="252.73" y2="223.52" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="252.73" y="223.52" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="I2C3_SDA" class="0">
 <segment>
 <pinref part="J5" gate="B" pin="1"/>
-<wire x1="313.69" y1="168.91" x2="309.88" y2="168.91" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="309.88" y="168.91" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="311.15" y1="168.91" x2="307.34" y2="168.91" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="307.34" y="168.91" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PC9"/>
-<wire x1="248.92" y1="220.98" x2="255.27" y2="220.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="255.27" y="220.98" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="220.98" x2="252.73" y2="220.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="252.73" y="220.98" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <pinref part="RM1" gate="_4" pin="2"/>
-<wire x1="365.76" y1="97.79" x2="358.14" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="363.22" y1="97.79" x2="355.6" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="RM1" gate="_3" pin="2"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="358.14" y1="105.41" x2="365.76" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="355.6" y1="105.41" x2="363.22" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="RM1" gate="_2" pin="2"/>
-<wire x1="365.76" y1="113.03" x2="358.14" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="363.22" y1="113.03" x2="355.6" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="RM1" gate="_1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="358.14" y1="120.65" x2="365.76" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
+<wire x1="355.6" y1="120.65" x2="363.22" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
 </segment>
 </net>
 <net name="SPI3_MOSI" class="0">
 <segment>
 <pinref part="J4" gate="B" pin="2"/>
-<wire x1="346.71" y1="179.07" x2="342.9" y2="179.07" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="342.9" y="179.07" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="344.17" y1="179.07" x2="340.36" y2="179.07" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="340.36" y="179.07" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PC12"/>
-<wire x1="248.92" y1="213.36" x2="254" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="254" y="213.36" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="213.36" x2="251.46" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="251.46" y="213.36" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="SPI3_MISO" class="0">
 <segment>
 <pinref part="J4" gate="B" pin="3"/>
-<wire x1="346.71" y1="176.53" x2="342.9" y2="176.53" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="342.9" y="176.53" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="344.17" y1="176.53" x2="340.36" y2="176.53" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="340.36" y="176.53" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PC11"/>
-<wire x1="248.92" y1="215.9" x2="254" y2="215.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="254" y="215.9" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="215.9" x2="251.46" y2="215.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="251.46" y="215.9" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="SPI3_SCK" class="0">
 <segment>
 <pinref part="J4" gate="B" pin="4"/>
-<wire x1="346.71" y1="173.99" x2="342.9" y2="173.99" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="342.9" y="173.99" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="344.17" y1="173.99" x2="340.36" y2="173.99" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="340.36" y="173.99" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PC10"/>
-<wire x1="248.92" y1="218.44" x2="254" y2="218.44" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="254" y="218.44" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="246.38" y1="218.44" x2="251.46" y2="218.44" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="251.46" y="218.44" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="SPI_CS" class="0">
 <segment>
 <pinref part="J4" gate="B" pin="5"/>
-<wire x1="346.71" y1="171.45" x2="342.9" y2="171.45" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="342.9" y="171.45" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="344.17" y1="171.45" x2="340.36" y2="171.45" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="340.36" y="171.45" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PA15"/>
-<wire x1="182.88" y1="205.74" x2="176.53" y2="205.74" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="176.53" y="205.74" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-</segment>
-</net>
-<net name="FDCAN_STB" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PA12"/>
-<wire x1="182.88" y1="213.36" x2="175.26" y2="213.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="175.26" y="213.36" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="180.34" y1="205.74" x2="173.99" y2="205.74" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="173.99" y="205.74" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6597,15 +6578,15 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <net name="BRIDGE2_EN" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PF10"/>
-<wire x1="337.82" y1="233.68" x2="340.36" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="340.36" y="233.68" size="1.524" layer="95" rot="R180" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="335.28" y1="233.68" x2="337.82" y2="233.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="337.82" y="233.68" size="1.524" layer="95" rot="R180" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="BRIDGE1_EN" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="PF9"/>
-<wire x1="337.82" y1="236.22" x2="340.36" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="340.36" y="236.22" size="1.524" layer="95" rot="R180" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<wire x1="335.28" y1="236.22" x2="337.82" y2="236.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
+<label x="337.82" y="236.22" size="1.524" layer="95" rot="R180" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
 <net name="REG" class="0">
@@ -7240,6 +7221,24 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <wire x1="160.02" y1="223.52" x2="165.1" y2="223.52" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
 <label x="165.1" y="223.52" size="1.524" layer="95" rot="R180" align="center-right" grouprefs="DC_MOTOR_DRIVER"/>
 </segment>
+<segment>
+<wire x1="245.11" y1="214.63" x2="245.11" y2="210.82" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
+<wire x1="245.11" y1="210.82" x2="245.11" y2="209.55" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
+<wire x1="245.11" y1="210.82" x2="254" y2="210.82" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
+<wire x1="254" y1="210.82" x2="254" y2="209.55" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
+<junction x="245.11" y="210.82" grouprefs="DC_MOTOR_DRIVER"/>
+<wire x1="245.11" y1="210.82" x2="238.76" y2="210.82" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
+<label x="238.76" y="210.82" size="1.524" layer="95" align="center-right" grouprefs="DC_MOTOR_DRIVER"/>
+<wire x1="276.86" y1="209.55" x2="254" y2="209.55" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
+<pinref part="Q2" gate="A" pin="S"/>
+<pinref part="Q4" gate="A" pin="D"/>
+<label x="276.86" y="209.55" size="1.778" layer="95" grouprefs="DC_MOTOR_DRIVER"/>
+</segment>
+<segment>
+<pinref part="J14" gate="B" pin="6"/>
+<wire x1="323.85" y1="227.33" x2="321.31" y2="227.33" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
+<label x="321.31" y="227.33" size="1.778" layer="95" rot="MR0" grouprefs="DC_MOTOR_DRIVER"/>
+</segment>
 </net>
 <net name="M_GL2" class="0">
 <segment>
@@ -7360,11 +7359,10 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <wire x1="39.37" y1="107.95" x2="39.37" y2="105.41" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <wire x1="50.8" y1="105.41" x2="50.8" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <wire x1="50.8" y1="107.95" x2="39.37" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
-<wire x1="62.23" y1="105.41" x2="62.23" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <junction x="50.8" y="107.95" grouprefs="POWER_OUTPUTS"/>
-<wire x1="62.23" y1="107.95" x2="50.8" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <wire x1="73.66" y1="105.41" x2="73.66" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <wire x1="73.66" y1="107.95" x2="62.23" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
+<wire x1="62.23" y1="107.95" x2="50.8" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <wire x1="73.66" y1="107.95" x2="73.66" y2="125.73" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <wire x1="73.66" y1="125.73" x2="87.63" y2="125.73" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <junction x="73.66" y="107.95" grouprefs="POWER_OUTPUTS"/>
@@ -7374,33 +7372,15 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <junction x="87.63" y="125.73" grouprefs="POWER_OUTPUTS"/>
 <pinref part="C41" gate="G$1" pin="1"/>
 <pinref part="C42" gate="G$1" pin="1"/>
-<pinref part="C43" gate="G$1" pin="1"/>
 <pinref part="C44" gate="G$1" pin="1"/>
 <pinref part="U8" gate="A" pin="VS"/>
 <pinref part="U8" gate="A" pin="VS@1"/>
 <wire x1="39.37" y1="110.49" x2="39.37" y2="107.95" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
 <junction x="39.37" y="107.95"/>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
-</segment>
-</net>
-<net name="M2" class="0">
-<segment>
-<wire x1="245.11" y1="214.63" x2="245.11" y2="210.82" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
-<wire x1="245.11" y1="210.82" x2="245.11" y2="209.55" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
-<wire x1="245.11" y1="210.82" x2="254" y2="210.82" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
-<wire x1="254" y1="210.82" x2="254" y2="209.55" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
-<junction x="245.11" y="210.82" grouprefs="DC_MOTOR_DRIVER"/>
-<wire x1="245.11" y1="210.82" x2="238.76" y2="210.82" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
-<label x="238.76" y="210.82" size="1.524" layer="95" align="center-right" grouprefs="DC_MOTOR_DRIVER"/>
-<wire x1="276.86" y1="209.55" x2="254" y2="209.55" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
-<pinref part="Q2" gate="A" pin="S"/>
-<pinref part="Q4" gate="A" pin="D"/>
-<label x="276.86" y="209.55" size="1.778" layer="95" grouprefs="DC_MOTOR_DRIVER"/>
-</segment>
-<segment>
-<pinref part="J14" gate="B" pin="6"/>
-<wire x1="323.85" y1="227.33" x2="321.31" y2="227.33" width="0.1524" layer="91" grouprefs="DC_MOTOR_DRIVER"/>
-<label x="321.31" y="227.33" size="1.778" layer="95" rot="MR0" grouprefs="DC_MOTOR_DRIVER"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="62.23" y1="105.41" x2="62.23" y2="107.95" width="0.1524" layer="91"/>
+<junction x="62.23" y="107.95"/>
 </segment>
 </net>
 <net name="POUT2" class="0">
@@ -7545,51 +7525,73 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,63.5,78.74,U10C,VDD_2,+3V3,,,"/>
-<approved hash="104,1,63.5,76.2,U10C,VDD_3,+3V3,,,"/>
-<approved hash="104,1,63.5,73.66,U10C,VDD_4,+3V3,,,"/>
-<approved hash="104,1,63.5,71.12,U10C,VDD_5,+3V3,,,"/>
-<approved hash="104,1,63.5,68.58,U10C,VDD,+3V3,,,"/>
-<approved hash="104,1,63.5,63.5,U10C,VDDA,+3V3,,,"/>
-<approved hash="104,1,63.5,58.42,U10C,VBAT,+3V3,,,"/>
-<approved hash="104,1,99.06,78.74,U10C,VSS_2,GND,,,"/>
-<approved hash="104,1,99.06,76.2,U10C,VSS_3,GND,,,"/>
-<approved hash="104,1,99.06,73.66,U10C,VSS_4,GND,,,"/>
-<approved hash="104,1,99.06,71.12,U10C,VSS_5,GND,,,"/>
-<approved hash="104,1,99.06,68.58,U10C,VSS,GND,,,"/>
-<approved hash="104,1,99.06,63.5,U10C,VSSA,GND,,,"/>
-<approved hash="104,1,99.06,58.42,U10C,VREF+,+3V,,,"/>
-<approved hash="104,1,91.44,222.25,U1,VOUT,+5V,,,"/>
-<approved hash="104,1,91.44,217.17,U1,GND_2,GND,,,"/>
-<approved hash="104,1,55.88,222.25,U1,VIN,VDD,,,"/>
-<approved hash="104,1,55.88,214.63,U1,PAD,GND,,,"/>
-<approved hash="104,1,29.21,215.9,J1,SHIELD,GND,,,"/>
-<approved hash="104,2,62.23,130.81,U7,VCC,+5V,,,"/>
-<approved hash="104,2,97.79,128.27,U7,VIO,+3V3,,,"/>
-<approved hash="104,2,214.63,143.51,U8,VDDIO,+3V3,,,"/>
-<approved hash="104,2,214.63,115.57,U8,RESV,GND,,,"/>
-<approved hash="104,2,214.63,140.97,U8,VDD,+3V3,,,"/>
-<approved hash="202,2,184.15,123.19,U8,FSYNC/NC,,,,"/>
-<approved hash="104,2,121.92,226.06,U11,VM,VBAT,,,"/>
-<approved hash="104,2,121.92,223.52,U11,VCP,N$33,,,"/>
-<approved hash="104,2,167.64,195.58,U11,GND_2,GND,,,"/>
-<approved hash="104,2,121.92,213.36,U11,AVDD,AVDD1,,,"/>
-<approved hash="104,2,121.92,210.82,U11,DVDD,DVDD2,,,"/>
-<approved hash="104,2,167.64,208.28,U11,GH1,M_GH1,,,"/>
-<approved hash="104,2,167.64,226.06,U11,GH2,M_GH2,,,"/>
-<approved hash="104,2,167.64,193.04,U11,PAD,GND,,,"/>
-<approved hash="104,2,312.42,187.96,U2,VS,+3V3,,,"/>
-<approved hash="104,2,312.42,190.5,U2,REF2,+1.8V,,,"/>
-<approved hash="104,2,312.42,193.04,U2,REF1,+1.8V,,,"/>
-<approved hash="208,1,116.84,128.27,+1.8V,out,,,,"/>
-<approved hash="208,1,121.92,134.62,+1.8V,sup,,,,"/>
+<approved hash="104,1,43.18,134.62,U1C,VDD_2,+3V3,,,"/>
+<approved hash="104,1,43.18,132.08,U1C,VDD_3,+3V3,,,"/>
+<approved hash="104,1,43.18,129.54,U1C,VDD_4,+3V3,,,"/>
+<approved hash="104,1,43.18,127,U1C,VDD_5,+3V3,,,"/>
+<approved hash="104,1,43.18,124.46,U1C,VDD,+3V3,,,"/>
+<approved hash="104,1,43.18,119.38,U1C,VDDA,+3V3,,,"/>
+<approved hash="104,1,43.18,114.3,U1C,VBAT,+3V3,,,"/>
+<approved hash="104,1,78.74,134.62,U1C,VSS_2,GND,,,"/>
+<approved hash="104,1,78.74,132.08,U1C,VSS_3,GND,,,"/>
+<approved hash="104,1,78.74,129.54,U1C,VSS_4,GND,,,"/>
+<approved hash="104,1,78.74,127,U1C,VSS_5,GND,,,"/>
+<approved hash="104,1,78.74,124.46,U1C,VSS,GND,,,"/>
+<approved hash="104,1,78.74,119.38,U1C,VSSA,GND,,,"/>
+<approved hash="104,1,78.74,114.3,U1C,VREF+,+3V,,,"/>
+<approved hash="202,1,91.44,232.41,U2,DELAY,,,,"/>
+<approved hash="104,1,91.44,229.87,U2,VOUT,+3V3,,,"/>
+<approved hash="104,1,91.44,224.79,U2,GND_2,GND,,,"/>
+<approved hash="104,1,55.88,229.87,U2,VIN,VDD,,,"/>
+<approved hash="104,1,55.88,222.25,U2,PAD,GND,,,"/>
+<approved hash="104,2,114.3,226.06,U6,VM,VDD,,,"/>
+<approved hash="104,2,114.3,223.52,U6,VCP,N$33,,,"/>
+<approved hash="104,2,160.02,195.58,U6,GND_2,GND,,,"/>
+<approved hash="104,2,114.3,213.36,U6,AVDD,AVDD1,,,"/>
+<approved hash="104,2,114.3,210.82,U6,DVDD,DVDD2,,,"/>
+<approved hash="104,2,160.02,208.28,U6,GH1,M_GH1,,,"/>
+<approved hash="104,2,160.02,226.06,U6,GH2,M_GH2,,,"/>
+<approved hash="104,2,160.02,193.04,U6,PAD,GND,,,"/>
+<approved hash="104,2,312.42,187.96,U7,VS,+3V3,,,"/>
+<approved hash="104,2,312.42,190.5,U7,REF2,+1.8V,,,"/>
+<approved hash="104,2,312.42,193.04,U7,REF1,+1.8V,,,"/>
+<approved hash="104,1,60.96,49.53,U5,VDDIO,+3V3,,,"/>
+<approved hash="104,1,60.96,21.59,U5,RESV,GND,,,"/>
+<approved hash="104,1,60.96,46.99,U5,VDD,+3V3,,,"/>
+<approved hash="202,1,30.48,29.21,U5,FSYNC/NC,,,,"/>
+<approved hash="103,2,90.17,120.65,U8,NC2,GND,,,"/>
+<approved hash="103,2,90.17,118.11,U8,NC1,GND,,,"/>
+<approved hash="103,2,90.17,115.57,U8,NC1,GND,,,"/>
+<approved hash="103,2,90.17,113.03,U8,NC1,GND,,,"/>
+<approved hash="103,2,90.17,110.49,U8,NC1,GND,,,"/>
+<approved hash="103,2,90.17,107.95,U8,NC1,GND,,,"/>
+<approved hash="103,2,90.17,105.41,U8,NC1,GND,,,"/>
+<approved hash="103,2,90.17,102.87,U8,NC1,GND,,,"/>
+<approved hash="103,2,125.73,105.41,U8,NC2,GND,,,"/>
+<approved hash="103,2,125.73,107.95,U8,NC2,GND,,,"/>
+<approved hash="103,2,125.73,110.49,U8,NC2,GND,,,"/>
+<approved hash="103,2,125.73,113.03,U8,NC2,GND,,,"/>
+<approved hash="103,2,125.73,115.57,U8,NC2,GND,,,"/>
+<approved hash="103,2,125.73,118.11,U8,NC2,GND,,,"/>
+<approved hash="208,1,96.52,182.88,+1.8V,out,,,,"/>
+<approved hash="208,1,101.6,189.23,+1.8V,sup,,,,"/>
 <approved hash="208,2,332.74,195.58,+1.8V,sup,,,,"/>
-<approved hash="208,1,106.68,59.69,+3V,sup,,,,"/>
-<approved hash="208,1,57.15,128.27,+3V,out,,,,"/>
-<approved hash="208,1,62.23,134.62,+3V,sup,,,,"/>
-<approved hash="208,1,328.93,85.09,+3V,sup,,,,"/>
+<approved hash="208,1,86.36,115.57,+3V,sup,,,,"/>
+<approved hash="208,1,46.99,182.88,+3V,out,,,,"/>
+<approved hash="208,1,52.07,189.23,+3V,sup,,,,"/>
+<approved hash="208,1,288.29,125.73,+3V,sup,,,,"/>
 <approved hash="113,1,194.206,131.976,FRAME1,,,,,"/>
+<approved hash="113,1,30.5308,165.1,TP10,,,,,"/>
+<approved hash="113,1,77.5208,165.1,TP11,,,,,"/>
+<approved hash="113,1,122.858,245.11,3V3,,,,,"/>
 <approved hash="113,2,194.206,131.976,FRAME2,,,,,"/>
+<approved hash="113,2,294.64,193.359,U7,,,,,"/>
+<approved hash="113,1,45.2393,239.42,VIN,,,,,"/>
+<approved hash="113,1,123.264,214.63,GND,,,,,"/>
+<approved hash="113,2,220.818,219.71,Q1,,,,,"/>
+<approved hash="113,2,243.678,219.71,Q2,,,,,"/>
+<approved hash="113,2,243.678,204.47,Q4,,,,,"/>
+<approved hash="113,2,220.818,204.47,Q3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
