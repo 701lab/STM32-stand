@@ -186,14 +186,21 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwxNzIwNjY" projecturn="a.YnVzaW5lc3M6Z21haWwxNzIwNjYjMjAxOTA0MjcxOTA2NjQ3MjY" f3durn="urn:adsk.wipprod:dm.lineage:DWieYIY5T-26zVu5qIZ_GQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="1b3a7b71-7b2a-4f0b-ad93-c1d56a087c31" lastsyncedrevisionid="1b3a7b71-7b2a-4f0b-ad93-c1d56a087c31" lastboardhashguid="5cb78ac3-859e-ec8c-19c0-7df1ab949920" lastpushedtime="2020-07-26T13:35:58Z" linktopcb3d="%12"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwxNzIwNjY" projecturn="a.YnVzaW5lc3M6Z21haWwxNzIwNjYjMjAxOTA0MjcxOTA2NjQ3MjY" f3durn="urn:adsk.wipprod:dm.lineage:DWieYIY5T-26zVu5qIZ_GQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="61548fd3-0590-41ef-aec8-13be1d8d10bc" lastsyncedrevisionid="61548fd3-0590-41ef-aec8-13be1d8d10bc" lastboardhashguid="9706204d-263b-f1fe-6566-9b9e5cbd1f8f" lastpushedtime="2020-07-26T16:23:28Z" linktopcb3d="%12"/>
 <plain>
-<wire x1="75" y1="100" x2="115" y2="100" width="0" layer="20"/>
+<wire x1="5" y1="100" x2="47" y2="100" width="0" layer="20"/>
+<wire x1="47" y1="100" x2="52" y2="95" width="0" layer="20" curve="-90"/>
+<wire x1="52" y1="95" x2="52" y2="90" width="0" layer="20"/>
+<wire x1="52" y1="90" x2="57" y2="85" width="0" layer="20" curve="90"/>
+<wire x1="57" y1="85" x2="63" y2="85" width="0" layer="20"/>
+<wire x1="63" y1="85" x2="68" y2="90" width="0" layer="20" curve="90"/>
+<wire x1="68" y1="90" x2="68" y2="95" width="0" layer="20"/>
+<wire x1="68" y1="95" x2="73" y2="100" width="0" layer="20" curve="-90"/>
+<wire x1="73" y1="100" x2="115" y2="100" width="0" layer="20"/>
 <wire x1="115" y1="100" x2="120" y2="95" width="0" layer="20" curve="-90"/>
 <wire x1="120" y1="95" x2="120" y2="5" width="0" layer="20"/>
 <wire x1="0" y1="5" x2="0" y2="95" width="0" layer="20"/>
 <wire x1="0" y1="95" x2="5" y2="100" width="0" layer="20" curve="-90"/>
-<wire x1="5" y1="100" x2="44" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="5" x2="5" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="5" y1="0" x2="115" y2="0" width="0" layer="20"/>
 <wire x1="115" y1="0" x2="120" y2="5" width="0" layer="20" curve="90"/>
@@ -203,10 +210,7 @@
 <hole x="5" y="95" drill="3"/>
 <text x="97" y="93" size="1.6764" layer="21" ratio="10" rot="R180" align="center">Vmax
 12V</text>
-<hole x="60" y="95" drill="12"/>
-<wire x1="50" y1="95" x2="70" y2="95" width="0" layer="20" curve="180"/>
-<wire x1="44" y1="100" x2="50" y2="95" width="0" layer="20" curve="-90"/>
-<wire x1="70" y1="95" x2="75" y2="100" width="0" layer="20" curve="-90"/>
+<hole x="60" y="93" drill="12"/>
 <text x="115" y="80" size="2" layer="1" rot="R90">1</text>
 <text x="115" y="82" size="2" layer="2" rot="R90">2</text>
 <text x="115" y="85" size="2" layer="15" rot="MR270">3</text>
