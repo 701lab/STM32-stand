@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4085,7 +4085,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <schematic_group name="IMU" titleSize="3.048"/>
 <schematic_group name="SEMI_PORTS_AND_ANALOG_SENSORS_CONNECTORS" titleSize="3.048"/>
 <schematic_group name="MICROCONTROLLER_AND_INTERFACES" titleSize="3.048"/>
-<schematic_group name="LED'S" titleSize="3.048"/>
 <schematic_group name="POTENTIOMETERS" titleSize="3.048"/>
 <schematic_group name="LED_INDICATORS"/>
 </groups>
@@ -4212,12 +4211,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R12" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="R-EU" device="0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k"/>
 <part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D2" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
-<part name="D3" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
-<part name="D4" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
-<part name="RM1" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="RES_ARRAY" device="0603" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603"/>
-<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D5" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
 <part name="+3V27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -4735,33 +4728,6 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="GND32" gate="1" x="266.7" y="13.97" smashed="yes" rot="MR0" grouprefs="USER_BUTTONS">
 <attribute name="VALUE" x="269.24" y="11.43" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D2" gate="G$1" x="350.52" y="120.65" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="351.79" y="123.19" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D3" gate="G$1" x="350.52" y="113.03" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="351.79" y="115.57" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D4" gate="G$1" x="350.52" y="105.41" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="351.79" y="107.95" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="RM1" gate="_1" x="363.22" y="120.65" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="365.76" y="123.4186" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="RM1" gate="_2" x="363.22" y="113.03" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="365.76" y="115.7986" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="RM1" gate="_3" x="363.22" y="105.41" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="365.76" y="108.1786" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="RM1" gate="_4" x="363.22" y="97.79" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="365.76" y="100.5586" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="GND33" gate="1" x="375.92" y="91.44" smashed="yes" rot="MR0" grouprefs="LED'S">
-<attribute name="VALUE" x="378.46" y="88.9" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="D5" gate="G$1" x="350.52" y="97.79" smashed="yes" grouprefs="LED'S">
-<attribute name="NAME" x="351.79" y="100.33" size="1.778" layer="95" align="center-left"/>
-</instance>
 <instance part="+3V27" gate="G$1" x="341.63" y="185.42" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
 <attribute name="VALUE" x="334.01" y="184.15" size="1.778" layer="96"/>
 </instance>
@@ -5113,30 +5079,6 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <label x="176.53" y="200.66" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
 </segment>
 </net>
-<net name="PB1" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PB1"/>
-<wire x1="180.34" y1="198.12" x2="177.8" y2="198.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="177.8" y="198.12" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-</segment>
-<segment>
-<wire x1="345.44" y1="105.41" x2="342.9" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="342.9" y="105.41" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="PB2" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PB2"/>
-<wire x1="180.34" y1="195.58" x2="177.8" y2="195.58" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="177.8" y="195.58" size="1.524" layer="95" align="center-right" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-</segment>
-<segment>
-<wire x1="345.44" y1="97.79" x2="342.9" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="342.9" y="97.79" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
-<pinref part="D5" gate="G$1" pin="A"/>
-</segment>
-</net>
 <net name="M_NSLEEP" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PB3"/>
@@ -5299,30 +5241,6 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="U5" gate="G$1" pin="INT2"/>
 <wire x1="60.96" y1="36.83" x2="64.77" y2="36.83" width="0.1524" layer="91" grouprefs="IMU"/>
 <label x="64.77" y="36.83" size="1.778" layer="95" rot="MR0" align="center-right" grouprefs="IMU"/>
-</segment>
-</net>
-<net name="PC6" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PC6"/>
-<wire x1="246.38" y1="228.6" x2="248.92" y2="228.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="248.92" y="228.6" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-</segment>
-<segment>
-<wire x1="345.44" y1="120.65" x2="342.9" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="342.9" y="120.65" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="PC7" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PC7"/>
-<wire x1="246.38" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-<label x="248.92" y="226.06" size="1.524" layer="95" align="center-left" grouprefs="MICROCONTROLLER_AND_INTERFACES"/>
-</segment>
-<segment>
-<wire x1="345.44" y1="113.03" x2="342.9" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
-<label x="342.9" y="113.03" size="1.524" layer="95" align="center-right" grouprefs="LED'S"/>
-<pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PC13" class="0">
@@ -6132,24 +6050,6 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="C23" gate="G$1" pin="2"/>
 </segment>
-<segment>
-<pinref part="GND33" gate="1" pin="GND"/>
-<pinref part="RM1" gate="_4" pin="2"/>
-<wire x1="375.92" y1="93.98" x2="375.92" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="375.92" y1="97.79" x2="368.3" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-<pinref part="RM1" gate="_3" pin="2"/>
-<wire x1="368.3" y1="105.41" x2="375.92" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="375.92" y1="105.41" x2="375.92" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-<junction x="375.92" y="97.79" grouprefs="LED'S"/>
-<pinref part="RM1" gate="_2" pin="2"/>
-<wire x1="368.3" y1="113.03" x2="375.92" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="375.92" y1="113.03" x2="375.92" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
-<junction x="375.92" y="105.41" grouprefs="LED'S"/>
-<pinref part="RM1" gate="_1" pin="2"/>
-<wire x1="368.3" y1="120.65" x2="375.92" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
-<wire x1="375.92" y1="120.65" x2="375.92" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
-<junction x="375.92" y="113.03" grouprefs="LED'S"/>
-</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -6716,34 +6616,6 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="C20" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="RM1" gate="_1" pin="1"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="358.14" y1="120.65" x2="353.06" y2="120.65" width="0.1524" layer="91" grouprefs="LED'S"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="RM1" gate="_2" pin="1"/>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="358.14" y1="113.03" x2="353.06" y2="113.03" width="0.1524" layer="91" grouprefs="LED'S"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="RM1" gate="_3" pin="1"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="358.14" y1="105.41" x2="353.06" y2="105.41" width="0.1524" layer="91" grouprefs="LED'S"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="RM1" gate="_4" pin="1"/>
-<pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="358.14" y1="97.79" x2="353.06" y2="97.79" width="0.1524" layer="91" grouprefs="LED'S"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
@@ -7098,29 +6970,29 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="RM3" gate="_4" x="48.26" y="76.2" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="44.45" y="77.6986" size="1.778" layer="95"/>
 </instance>
-<instance part="D27" gate="G$1" x="35.56" y="152.4" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="154.94" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D28" gate="G$1" x="35.56" y="147.32" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="149.86" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D29" gate="G$1" x="35.56" y="142.24" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="144.78" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D30" gate="G$1" x="35.56" y="137.16" smashed="yes" grouprefs="LED_INDICATORS">
+<instance part="D27" gate="G$1" x="35.56" y="137.16" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="36.83" y="139.7" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D31" gate="G$1" x="35.56" y="132.08" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="134.62" size="1.778" layer="95" align="center-left"/>
+<instance part="D28" gate="G$1" x="35.56" y="142.24" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="144.78" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D32" gate="G$1" x="35.56" y="127" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="129.54" size="1.778" layer="95" align="center-left"/>
+<instance part="D29" gate="G$1" x="35.56" y="147.32" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="149.86" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D33" gate="G$1" x="35.56" y="121.92" smashed="yes" grouprefs="LED_INDICATORS">
+<instance part="D30" gate="G$1" x="35.56" y="152.4" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="154.94" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="D31" gate="G$1" x="35.56" y="116.84" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="119.38" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="D32" gate="G$1" x="35.56" y="121.92" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="36.83" y="124.46" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D34" gate="G$1" x="35.56" y="116.84" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="119.38" size="1.778" layer="95" align="center-left"/>
+<instance part="D33" gate="G$1" x="35.56" y="127" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="129.54" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="D34" gate="G$1" x="35.56" y="132.08" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="134.62" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="D35" gate="G$1" x="35.56" y="111.76" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="36.83" y="114.3" size="1.778" layer="95" align="center-left"/>
@@ -8228,57 +8100,57 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </net>
 <net name="PD0" class="0">
 <segment>
-<wire x1="30.48" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="152.4" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="137.16" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D27" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD1" class="0">
 <segment>
-<wire x1="30.48" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="147.32" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="142.24" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D28" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD2" class="0">
 <segment>
-<wire x1="30.48" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="142.24" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="147.32" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D29" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD3" class="0">
 <segment>
-<wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="137.16" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="152.4" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D30" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD4" class="0">
 <segment>
-<wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="132.08" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="116.84" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D31" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD5" class="0">
 <segment>
-<wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="127" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="121.92" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D32" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD6" class="0">
 <segment>
-<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="121.92" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="127" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D33" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD7" class="0">
 <segment>
-<wire x1="30.48" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="116.84" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="132.08" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D34" gate="G$1" pin="A"/>
 </segment>
 </net>
@@ -8392,34 +8264,6 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <wire x1="30.48" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
 <label x="27.94" y="76.2" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D37" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="RM5" gate="_1" pin="1"/>
-<pinref part="D31" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="D32" gate="G$1" pin="C"/>
-<pinref part="RM5" gate="_2" pin="1"/>
-<wire x1="38.1" y1="127" x2="43.18" y2="127" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="D33" gate="G$1" pin="C"/>
-<pinref part="RM5" gate="_3" pin="1"/>
-<wire x1="38.1" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="D34" gate="G$1" pin="C"/>
-<pinref part="RM5" gate="_4" pin="1"/>
-<wire x1="38.1" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -8590,32 +8434,60 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="D23" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="N$4" class="0">
 <segment>
-<pinref part="RM4" gate="_1" pin="1"/>
-<pinref part="D27" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<pinref part="RM5" gate="_4" pin="1"/>
+<pinref part="D31" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$5" class="0">
 <segment>
-<pinref part="RM4" gate="_2" pin="1"/>
-<pinref part="D28" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<pinref part="RM5" gate="_3" pin="1"/>
+<pinref part="D32" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$6" class="0">
 <segment>
-<pinref part="D29" gate="G$1" pin="C"/>
-<wire x1="38.1" y1="142.24" x2="43.18" y2="142.24" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<pinref part="RM4" gate="_3" pin="1"/>
+<pinref part="RM5" gate="_2" pin="1"/>
+<pinref part="D33" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
+<pinref part="RM5" gate="_1" pin="1"/>
+<pinref part="D34" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="RM4" gate="_1" pin="1"/>
 <pinref part="D30" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="RM4" gate="_2" pin="1"/>
+<pinref part="D29" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="RM4" gate="_3" pin="1"/>
+<pinref part="D28" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
 <pinref part="RM4" gate="_4" pin="1"/>
-<wire x1="38.1" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<pinref part="D27" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
