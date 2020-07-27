@@ -6970,29 +6970,29 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="RM3" gate="_4" x="48.26" y="76.2" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="44.45" y="77.6986" size="1.778" layer="95"/>
 </instance>
-<instance part="D27" gate="G$1" x="35.56" y="137.16" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="139.7" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D28" gate="G$1" x="35.56" y="142.24" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="144.78" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D29" gate="G$1" x="35.56" y="147.32" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="149.86" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="D30" gate="G$1" x="35.56" y="152.4" smashed="yes" grouprefs="LED_INDICATORS">
+<instance part="D27" gate="G$1" x="35.56" y="152.4" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="36.83" y="154.94" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D31" gate="G$1" x="35.56" y="116.84" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="119.38" size="1.778" layer="95" align="center-left"/>
+<instance part="D28" gate="G$1" x="35.56" y="147.32" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="149.86" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D32" gate="G$1" x="35.56" y="121.92" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="124.46" size="1.778" layer="95" align="center-left"/>
+<instance part="D29" gate="G$1" x="35.56" y="142.24" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="144.78" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D33" gate="G$1" x="35.56" y="127" smashed="yes" grouprefs="LED_INDICATORS">
+<instance part="D30" gate="G$1" x="35.56" y="137.16" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="139.7" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="D31" gate="G$1" x="35.56" y="132.08" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="134.62" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="D32" gate="G$1" x="35.56" y="127" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="36.83" y="129.54" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="D34" gate="G$1" x="35.56" y="132.08" smashed="yes" grouprefs="LED_INDICATORS">
-<attribute name="NAME" x="36.83" y="134.62" size="1.778" layer="95" align="center-left"/>
+<instance part="D33" gate="G$1" x="35.56" y="121.92" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="124.46" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="D34" gate="G$1" x="35.56" y="116.84" smashed="yes" grouprefs="LED_INDICATORS">
+<attribute name="NAME" x="36.83" y="119.38" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="D35" gate="G$1" x="35.56" y="111.76" smashed="yes" grouprefs="LED_INDICATORS">
 <attribute name="NAME" x="36.83" y="114.3" size="1.778" layer="95" align="center-left"/>
@@ -8100,57 +8100,57 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </net>
 <net name="PD0" class="0">
 <segment>
-<wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="137.16" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="152.4" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D27" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD1" class="0">
 <segment>
-<wire x1="30.48" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="142.24" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="147.32" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D28" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD2" class="0">
 <segment>
-<wire x1="30.48" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="147.32" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="142.24" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D29" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD3" class="0">
 <segment>
-<wire x1="30.48" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="152.4" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="137.16" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D30" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD4" class="0">
 <segment>
-<wire x1="30.48" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="116.84" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="132.08" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D31" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD5" class="0">
 <segment>
-<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="121.92" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="127" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D32" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD6" class="0">
 <segment>
-<wire x1="30.48" y1="127" x2="27.94" y2="127" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="127" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="121.92" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D33" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PD7" class="0">
 <segment>
-<wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
-<label x="27.94" y="132.08" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
+<wire x1="30.48" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91" grouprefs="LED_INDICATORS"/>
+<label x="27.94" y="116.84" size="1.524" layer="95" align="center-right" grouprefs="LED_INDICATORS"/>
 <pinref part="D34" gate="G$1" pin="A"/>
 </segment>
 </net>
@@ -8434,60 +8434,60 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="D23" gate="G$1" pin="C"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="D34" gate="G$1" pin="C"/>
+<pinref part="RM5" gate="_4" pin="1"/>
+<wire x1="38.1" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="RM5" gate="_4" pin="1"/>
-<pinref part="D31" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="D33" gate="G$1" pin="C"/>
+<pinref part="RM5" gate="_3" pin="1"/>
+<wire x1="38.1" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="RM5" gate="_3" pin="1"/>
 <pinref part="D32" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="RM5" gate="_2" pin="1"/>
+<wire x1="38.1" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="RM5" gate="_2" pin="1"/>
-<pinref part="D33" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
+<pinref part="D31" gate="G$1" pin="C"/>
 <pinref part="RM5" gate="_1" pin="1"/>
-<pinref part="D34" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="RM4" gate="_1" pin="1"/>
-<pinref part="D30" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
+<pinref part="D27" gate="G$1" pin="C"/>
+<pinref part="RM4" gate="_1" pin="1"/>
+<wire x1="38.1" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="D28" gate="G$1" pin="C"/>
 <pinref part="RM4" gate="_2" pin="1"/>
-<pinref part="D29" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
+<pinref part="D29" gate="G$1" pin="C"/>
 <pinref part="RM4" gate="_3" pin="1"/>
-<pinref part="D28" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="142.24" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
+<pinref part="D30" gate="G$1" pin="C"/>
 <pinref part="RM4" gate="_4" pin="1"/>
-<pinref part="D27" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
