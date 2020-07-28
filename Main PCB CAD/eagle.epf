@@ -6,6 +6,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibraryUrn="urn:adsk.eagle:library:325"
 UsedLibraryUrn="urn:adsk.eagle:library:14616530"
 UsedLibraryUrn="urn:adsk.eagle:library:12979860"
 UsedLibraryUrn="urn:adsk.eagle:library:13143856"
@@ -37,5 +38,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="3840 1200"
+Screen="1920 1080"
 Window="Win_1"
