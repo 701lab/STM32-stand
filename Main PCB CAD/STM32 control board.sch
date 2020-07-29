@@ -4647,6 +4647,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J1" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" deviceset="B3B-PH" device="" package3d_urn="urn:adsk.eagle:package:13143941/5"/>
+<part name="TP1" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="TEST_PAD" device="-[1.27MM_SK]" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8"/>
+<part name="TP2" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="TEST_PAD" device="-[1.27MM_SK]" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8"/>
+<part name="TP3" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="TEST_PAD" device="-[1.27MM_SK]" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8"/>
 </parts>
 <sheets>
 <sheet>
@@ -5150,6 +5153,15 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </instance>
 <instance part="J1" gate="G$1" x="30.48" y="204.47" smashed="yes">
 <attribute name="VALUE" x="29.21" y="196.85" size="1.778" layer="95"/>
+</instance>
+<instance part="TP1" gate="G$1" x="96.52" y="158.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.52" y="156.21" size="1.27" layer="95" align="center-left"/>
+</instance>
+<instance part="TP2" gate="G$1" x="123.19" y="250.19" smashed="yes" rot="R90">
+<attribute name="NAME" x="123.19" y="252.73" size="1.27" layer="95" rot="R180" align="center-left"/>
+</instance>
+<instance part="TP3" gate="G$1" x="123.19" y="208.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="123.19" y="205.74" size="1.27" layer="95" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -5963,7 +5975,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="166.37" x2="76.2" y2="163.83" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <pinref part="U4" gate="A" pin="GND"/>
-<wire x1="76.2" y1="163.83" x2="106.68" y2="163.83" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
+<wire x1="76.2" y1="163.83" x2="96.52" y2="163.83" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
+<wire x1="96.52" y1="163.83" x2="106.68" y2="163.83" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <wire x1="106.68" y1="163.83" x2="106.68" y2="175.26" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <wire x1="106.68" y1="175.26" x2="105.41" y2="175.26" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -5972,6 +5985,9 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <junction x="106.68" y="163.83" grouprefs="POWER_STAGE"/>
 <wire x1="106.68" y1="163.83" x2="106.68" y2="161.29" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
+<wire x1="96.52" y1="161.29" x2="96.52" y2="163.83" width="0.1524" layer="91"/>
+<junction x="96.52" y="163.83"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
@@ -6070,6 +6086,10 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <junction x="123.19" y="219.71" grouprefs="POWER_STAGE"/>
 <pinref part="NEG" gate="1" pin="P"/>
 <wire x1="27.94" y1="226.06" x2="19.05" y2="226.06" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
+<pinref part="TP3" gate="G$1" pin="P$1"/>
+<wire x1="123.19" y1="210.82" x2="123.19" y2="214.63" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="214.63" x2="111.76" y2="214.63" width="0.1524" layer="91"/>
+<junction x="111.76" y="214.63"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -6394,7 +6414,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="VOUT"/>
-<wire x1="111.76" y1="248.92" x2="111.76" y2="240.03" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
+<wire x1="111.76" y1="248.92" x2="111.76" y2="242.57" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
+<wire x1="111.76" y1="242.57" x2="111.76" y2="240.03" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <wire x1="111.76" y1="240.03" x2="111.76" y2="234.95" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <wire x1="111.76" y1="234.95" x2="111.76" y2="231.14" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <wire x1="85.09" y1="229.87" x2="95.25" y2="229.87" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
@@ -6415,6 +6436,10 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <wire x1="134.62" y1="231.14" x2="134.62" y2="234.95" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <wire x1="134.62" y1="234.95" x2="123.19" y2="234.95" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <junction x="123.19" y="234.95" grouprefs="POWER_STAGE"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
+<wire x1="123.19" y1="247.65" x2="123.19" y2="242.57" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="242.57" x2="111.76" y2="242.57" width="0.1524" layer="91"/>
+<junction x="111.76" y="242.57"/>
 </segment>
 <segment>
 <wire x1="80.01" y1="41.91" x2="80.01" y2="20.32" width="0.1524" layer="91" grouprefs="IMU"/>
