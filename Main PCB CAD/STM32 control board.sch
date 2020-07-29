@@ -8058,9 +8058,9 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 <segment>
-<wire x1="275.59" y1="116.84" x2="273.05" y2="116.84" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
-<label x="273.05" y="116.84" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
-<pinref part="J15" gate="G$1" pin="2"/>
+<pinref part="J15" gate="G$1" pin="3"/>
+<wire x1="275.59" y1="121.92" x2="273.05" y2="121.92" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
+<label x="273.05" y="121.92" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
 </segment>
 </net>
 <net name="POWER_OUT3" class="0">
@@ -8178,9 +8178,9 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="J15" gate="G$1" pin="3"/>
-<wire x1="275.59" y1="121.92" x2="273.05" y2="121.92" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
-<label x="273.05" y="121.92" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
+<wire x1="275.59" y1="116.84" x2="273.05" y2="116.84" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
+<label x="273.05" y="116.84" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
+<pinref part="J15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PO1" class="0">
@@ -8194,9 +8194,9 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 <segment>
-<pinref part="J15" gate="G$1" pin="4"/>
-<wire x1="275.59" y1="127" x2="273.05" y2="127" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
-<label x="273.05" y="127" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
+<wire x1="275.59" y1="111.76" x2="273.05" y2="111.76" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
+<label x="273.05" y="111.76" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
+<pinref part="J15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PO4" class="0">
@@ -8210,9 +8210,9 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 <segment>
-<wire x1="275.59" y1="111.76" x2="273.05" y2="111.76" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
-<label x="273.05" y="111.76" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
-<pinref part="J15" gate="G$1" pin="1"/>
+<pinref part="J15" gate="G$1" pin="4"/>
+<wire x1="275.59" y1="127" x2="273.05" y2="127" width="0.1524" layer="91" grouprefs="POWER_OUTPUTS"/>
+<label x="273.05" y="127" size="1.778" layer="95" rot="MR0" grouprefs="POWER_OUTPUTS"/>
 </segment>
 </net>
 <net name="PE7" class="0">
