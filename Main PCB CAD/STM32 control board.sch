@@ -785,13 +785,11 @@ DIN A3, landscape with extra doc field</description>
 </library>
 <library name="buttons and switches" urn="urn:adsk.eagle:library:14616530">
 <packages>
-<package name="SWITCH_B3F-4055" urn="urn:adsk.eagle:footprint:17006411/2" library_version="19">
+<package name="SWITCH_B3F-4055" urn="urn:adsk.eagle:footprint:17006411/3" library_version="39">
 <pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="1.7526"/>
 <pad name="2" x="-6.25" y="-2.54" drill="1.2" diameter="1.7526"/>
 <pad name="3" x="6.25" y="2.5" drill="1.2" diameter="1.7526"/>
 <pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="1.7526"/>
-<pad name="5" x="0" y="4.5" drill="1.8" diameter="1.8"/>
-<pad name="6" x="0" y="-4.5" drill="1.8" diameter="1.8"/>
 <wire x1="-5.9944" y1="1.8288" x2="-5.9944" y2="3.0734" width="0.127" layer="51"/>
 <wire x1="-5.9944" y1="3.0734" x2="-6.7818" y2="3.0734" width="0.127" layer="51"/>
 <wire x1="-6.7818" y1="3.0734" x2="-6.7818" y2="1.8288" width="0.127" layer="51"/>
@@ -820,10 +818,12 @@ DIN A3, landscape with extra doc field</description>
 <text x="0" y="-7.62" size="1.27" layer="25" ratio="6" rot="SR0" align="center">&gt;Name</text>
 <text x="0" y="0" size="1.778" layer="48" ratio="10" align="center">&gt;Name</text>
 <circle x="0" y="0" radius="3.466425" width="0.127" layer="51"/>
+<hole x="0" y="4.5" drill="1.8"/>
+<hole x="0" y="-4.5" drill="1.8"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="SWITCH_B3F-4055" urn="urn:adsk.eagle:package:17006412/3" type="model" library_version="19">
+<package3d name="SWITCH_B3F-4055" urn="urn:adsk.eagle:package:17006412/4" type="model" library_version="39">
 <packageinstances>
 <packageinstance name="SWITCH_B3F-4055"/>
 </packageinstances>
@@ -855,7 +855,7 @@ DIN A3, landscape with extra doc field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="B3F-4055" urn="urn:adsk.eagle:component:17006413/3" prefix="SW" library_version="19">
+<deviceset name="B3F-4055" urn="urn:adsk.eagle:component:17006413/4" prefix="SW" library_version="39">
 <gates>
 <gate name="A" symbol="SWITCH-MOMENTARY" x="0" y="0"/>
 </gates>
@@ -868,7 +868,7 @@ DIN A3, landscape with extra doc field</description>
 <connect gate="A" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:17006412/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17006412/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1547,6 +1547,33 @@ DIN A3, landscape with extra doc field</description>
 <text x="0" y="2.54" size="1.27" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <text x="0" y="0" size="0.6096" layer="48" align="center">&gt;Name</text>
 </package>
+<package name="ALPS_PTM_LONG" urn="urn:adsk.eagle:footprint:22300932/1" library_version="37">
+<pad name="P$1" x="-2.5" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="P$2" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="P$3" x="2.5" y="0" drill="1" shape="long" rot="R90"/>
+<hole x="-4.6" y="7" drill="2.2"/>
+<hole x="4.6" y="7" drill="2.2"/>
+<wire x1="-4.9" y1="12.5" x2="4.9" y2="12.5" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="0.75" x2="4.9" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="12.5" x2="-4.9" y2="0.75" width="0.127" layer="51"/>
+<wire x1="4.9" y1="12.5" x2="4.9" y2="0.75" width="0.127" layer="51"/>
+<wire x1="-5.588" y1="-0.762" x2="5.588" y2="-0.762" width="0.127" layer="48"/>
+<wire x1="5.588" y1="-0.762" x2="5.588" y2="12.573" width="0.127" layer="48"/>
+<wire x1="5.588" y1="12.573" x2="-5.588" y2="12.573" width="0.127" layer="48"/>
+<wire x1="-5.588" y1="12.573" x2="-5.588" y2="-0.762" width="0.127" layer="48"/>
+<circle x="0" y="7" radius="3" width="0.127" layer="51"/>
+<circle x="-4.6" y="7" radius="1.3" width="0.35" layer="1"/>
+<circle x="-4.6" y="7" radius="1.3" width="0.35" layer="16"/>
+<circle x="-4.6" y="7" radius="1.3" width="0.35" layer="29"/>
+<circle x="-4.6" y="7" radius="1.3" width="0.35" layer="30"/>
+<circle x="4.6" y="7" radius="1.3" width="0.35" layer="1"/>
+<circle x="4.6" y="7" radius="1.3" width="0.35" layer="16"/>
+<circle x="4.6" y="7" radius="1.3" width="0.35" layer="29"/>
+<circle x="4.6" y="7" radius="1.3" width="0.35" layer="30"/>
+<text x="0" y="6.35" size="1.778" layer="48" align="center">&gt;Name</text>
+<text x="0" y="13.97" size="1.27" layer="25" align="center">&gt;Name</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="center">&gt;Value</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:15234387/3" type="model" library_version="27">
@@ -1658,6 +1685,11 @@ DIN A3, landscape with extra doc field</description>
 <description>Model is suitable for Yageo YC124 resistors array &lt;p&gt; &lt;a href&gt;http://www.yageo.ru/pdf/R_Mount.pdf&lt;a&gt;</description>
 <packageinstances>
 <packageinstance name="0603-ARC"/>
+</packageinstances>
+</package3d>
+<package3d name="ALPS_PTM_LONG" urn="urn:adsk.eagle:package:22300933/2" type="model" library_version="37">
+<packageinstances>
+<packageinstance name="ALPS_PTM_LONG"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1855,7 +1887,7 @@ DIN A3, landscape with extra doc field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POTEMTIOMETER_EU" urn="urn:adsk.eagle:component:17016699/5" prefix="R" library_version="30">
+<deviceset name="POTEMTIOMETER_EU" urn="urn:adsk.eagle:component:17016699/6" prefix="R" library_version="37">
 <gates>
 <gate name="G$1" symbol="R_EU_POTENTIOMETER" x="0" y="0"/>
 </gates>
@@ -1873,6 +1905,19 @@ DIN A3, landscape with extra doc field</description>
 <technology name="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="LONG" package="ALPS_PTM_LONG">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22300933/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4377,7 +4422,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="SW1" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/3"/>
+<part name="SW1" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/4"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" deviceset="C-EU-CERAMIC" device="0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF"/>
 <part name="R3" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="R-EU" device="0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k"/>
@@ -4465,9 +4510,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="+3V20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW2" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/3"/>
-<part name="SW3" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/3"/>
-<part name="SW4" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/3"/>
+<part name="SW2" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/4"/>
+<part name="SW3" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/4"/>
+<part name="SW4" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/4"/>
 <part name="C24" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" deviceset="C-EU-CERAMIC" device="0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF"/>
 <part name="C25" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" deviceset="C-EU-CERAMIC" device="0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF"/>
 <part name="C26" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" deviceset="C-EU-CERAMIC" device="0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF"/>
@@ -4480,13 +4525,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R11" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="R-EU" device="0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k"/>
 <part name="+3V24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="" package3d_urn="urn:adsk.eagle:package:17016698/4" value="10K"/>
-<part name="R6" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="" package3d_urn="urn:adsk.eagle:package:17016698/4" value="10K"/>
-<part name="R7" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="" package3d_urn="urn:adsk.eagle:package:17016698/4" value="10K"/>
+<part name="R5" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K"/>
+<part name="R6" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K"/>
+<part name="R7" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V25" library="Hople_supply" library_urn="urn:adsk.eagle:library:16851455" deviceset="+3V" device=""/>
-<part name="R8" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="" package3d_urn="urn:adsk.eagle:package:17016698/4" value="10K"/>
-<part name="SW5" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/3"/>
+<part name="R8" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="POTEMTIOMETER_EU" device="LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K"/>
+<part name="SW5" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" deviceset="B3F-4055" device="" package3d_urn="urn:adsk.eagle:package:17006412/4"/>
 <part name="C27" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" deviceset="C-EU-CERAMIC" device="0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF"/>
 <part name="R12" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" deviceset="R-EU" device="0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k"/>
 <part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
