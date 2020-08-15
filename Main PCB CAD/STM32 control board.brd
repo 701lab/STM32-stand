@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -186,6 +186,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwxNzIwNjY" projecturn="a.YnVzaW5lc3M6Z21haWwxNzIwNjYjMjAxOTA0MjcxOTA2NjQ3MjY" f3durn="urn:adsk.wipprod:dm.lineage:DWieYIY5T-26zVu5qIZ_GQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="8c01a32d-3549-4f63-a21f-e9070100a03b" lastsyncedrevisionid="8c01a32d-3549-4f63-a21f-e9070100a03b" lastboardhashguid="ff0be280-9055-5e91-764a-3967c254445c" lastpushedtime="2020-08-15T07:27:37Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="0" y1="5" x2="0" y2="99" width="0" layer="20"/>
 <wire x1="0" y1="99" x2="5" y2="104" width="0" layer="20" curve="-90"/>
@@ -1947,331 +1948,331 @@ design rules under a new name.</description>
 <elements>
 <element name="C1" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF" x="60" y="80" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL31B106KAHNNNE" x="118.42" y="-7.63" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60" y="81.905" size="1.27" layer="25" align="center"/>
 <attribute name="NAME" x="60" y="80" size="0.8128" layer="48" align="center"/>
+<attribute name="NAME" x="60" y="81.905" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="60" y="78.095" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C5" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="67" y="27" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="159.73" y="84.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="68.4" y="26.98" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="65.75" y="27" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="64.48" y="27" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="67.02" y="27" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C17" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="52.6" y="59" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="151.66" y="151.71" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="50.7" y="59.03" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="52.6" y="59" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="51.33" y="59" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="53.87" y="59" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C6" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="4.7uF" x="69" y="41" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="168.06" y="-58.06" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.3" y="40.97" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="69" y="41" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="69" y="42.27" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="69" y="39.73" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C7" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="4.7uF" x="69" y="35" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="85.51" y="-69.14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.3" y="34.97" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="69" y="35" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="69" y="36.27" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="69" y="33.73" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C8" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="4.7uF" x="7" y="88" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="29.86" y="-16.14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.8" y="88.07" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="7" y="88" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="7" y="89.27" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="7" y="86.73" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C9" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="4.7uF" x="7" y="82" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="36.21" y="-22.14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.9" y="82.07" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="7" y="82" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="7" y="83.27" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="7" y="80.73" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C10" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="58.2" y="39.85" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-35.78" y="-42.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.27" y="37.25" size="1" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="58.2" y="39.85" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="59.47" y="39.85" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="56.93" y="39.85" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C2" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="55" y="70" smashed="yes" rot="R180">
 <attribute name="DATASHEET" value="" x="55" y="70" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="-17.39" y="148.74" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="55" y="67.540859375" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="55" y="70" size="0.8128" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="55" y="72.540859375" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="54.997459375" y="72.554059375" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C11" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="4.7uF" x="61.3" y="66.1" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-42.84" y="24.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="63.4" y="66.07" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="61.3" y="66.1" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="62.57" y="66.1" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="60.03" y="66.1" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C12" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="49.6" y="45.418" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="151.2" y="-48.562" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="49.6" y="46.688" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="49.6" y="45.418" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="49.6" y="46.688" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="49.6" y="44.148" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C13" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="49.6" y="52.954" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="33.09" y="152.014" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="49.6" y="54.184" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="49.6" y="52.954" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="49.6" y="51.684" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="49.6" y="54.224" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C14" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="65.3" y="40.4" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="42.44" y="139.46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="65.3" y="39.23" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="65.3" y="40.4" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="65.3" y="39.13" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="65.3" y="41.67" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C15" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="69.6" y="50.5" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-29.46" y="21.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="71.7" y="50.57" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="69.6" y="50.5" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="70.87" y="50.5" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="68.33" y="50.5" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C16" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="69.6" y="55.8" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-29.46" y="20.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="71.7" y="55.77" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="69.6" y="55.8" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="70.87" y="55.8" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="68.33" y="55.8" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C18" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="1uF" x="57" y="39.5" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="161.14" y="104.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="56.93" y="36.7" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="57" y="39.5" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="55.73" y="39.5" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="58.27" y="39.5" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C24" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="41" y="18" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="9.25" y="111.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="41" y="19.33" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="41" y="18" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="41" y="16.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="41" y="19.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C19" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="59.1" y="39.85" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-39.96" y="-2.06" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="59.57" y="37.25" size="1" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="59.1" y="39.85" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="60.37" y="39.85" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="57.83" y="39.85" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C34" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="47" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="47" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="-31.74" y="-22.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="49.459140625" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="47" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="47" y="78.3" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="44.445940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C29" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="22" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="22" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="-56.74" y="-29.14" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="24.459140625" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="22" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="22" y="78.3" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="19.445940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C33" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF" x="53" y="80" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL31B106KAHNNNE" x="121.58" y="-7.63" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="53" y="81.905" size="1.27" layer="25" align="center"/>
 <attribute name="NAME" x="53" y="80" size="0.8128" layer="48" align="center"/>
+<attribute name="NAME" x="53" y="77.905" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="53" y="78.095" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C30" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF" x="21" y="80" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL31B106KAHNNNE" x="-52.66" y="167.63" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="21" y="78.095" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="21" y="80" size="0.8128" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="17.22931875" y="80.00188125" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="21" y="81.905" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C25" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="97" y="18" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="58.9" y="111.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="97" y="19.33" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="97" y="18" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="97" y="16.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="97" y="19.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C31" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="22" y="82" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-32.61" y="181.06" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="19.8" y="82.3" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="22" y="82" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="22" y="80.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="22" y="83.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="C32" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="52.2" y="81.8" smashed="yes">
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="113.16" y="-17.26" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="52.2" y="81.8" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="52.2" y="83.07" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="52.2" y="80.53" size="1.27" layer="27" align="center"/>
+<element name="C32" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="52.2" y="82" smashed="yes">
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="113.16" y="-17.06" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="54.6" y="82.2" size="1" layer="25" align="center"/>
+<attribute name="NAME" x="52.2" y="82" size="0.4064" layer="48" align="center"/>
+<attribute name="VALUE" x="52.2" y="80.73" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C36" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="1uF" x="33" y="73" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-71.14" y="3.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="32.97" y="75.9" size="1" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="33" y="73" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="34.27" y="73" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="31.73" y="73" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C37" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="33" y="70" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-66.06" y="2.69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="31.67" y="70" size="1" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="33" y="70" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="34.27" y="70" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="31.73" y="70" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C38" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF" x="29.5" y="75" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL31B106KAHNNNE" x="-58.13" y="-3.74" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.405" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="29.5" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="29.50321875" y="78.087659375" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="27.595" y="75" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C26" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="23" y="18" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-21.45" y="111.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="19.33" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="23" y="18" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="23" y="16.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="23" y="19.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C39" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="31.5" y="73.6" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-67.56" y="-0.06" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="31.43" y="75.9" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="31.5" y="73.6" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="32.77" y="73.6" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="30.23" y="73.6" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C40" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="1uF" x="33.3" y="67" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="137.44" y="141.93" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="33.13" y="64.3" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="33.3" y="67" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="32.03" y="67" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="34.57" y="67" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C41" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="1uF" x="34.8" y="67" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="138.94" y="147.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="34.53" y="64.4" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="34.8" y="67" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="33.53" y="67" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="36.07" y="67" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C42" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="29" y="99" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-51.01" y="198.06" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="28.1115" y="100.23951875" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="29" y="99" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="29" y="97.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="29" y="100.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C43" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="31" y="99" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="117.36" y="-0.06" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="32.28778125" y="100.2192" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="31" y="99" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="31" y="100.27" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="31" y="97.73" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C27" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="79" y="18" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="28.2" y="111.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="79" y="19.33" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="79" y="18" size="0.4064" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="79" y="16.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="79" y="19.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="D1" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Green" x="67" y="80" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.54" y="82.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="66.46" y="81.46" size="1" layer="25"/>
 <attribute name="NAME" x="67" y="80" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="68.27" y="78.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="Q1" library="Transistors" library_urn="urn:adsk.eagle:library:17314025" package="SON2X2" package3d_urn="urn:adsk.eagle:package:21780432/4" value="" x="49" y="82" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CSD15571Q2" x="-33.55" y="189.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="49.9906" y="80.73" size="0.4064" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="46.2" y="82" size="1" layer="25" ratio="6" rot="SR0"/>
 <attribute name="NAME" x="49" y="82" size="0.4064" layer="48" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="Q2" library="Transistors" library_urn="urn:adsk.eagle:library:17314025" package="SON2X2" package3d_urn="urn:adsk.eagle:package:21780432/4" value="" x="25" y="82" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CSD15571Q2" x="-61.36" y="189.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="25.9906" y="80.73" size="0.4064" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="26.7" y="82" size="1" layer="25" ratio="6" rot="SR0"/>
 <attribute name="NAME" x="25" y="82" size="0.4064" layer="48" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="Q4" library="Transistors" library_urn="urn:adsk.eagle:library:17314025" package="SON2X2" package3d_urn="urn:adsk.eagle:package:21780432/4" value="" x="33" y="82" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CSD15571Q2" x="123.17" y="-25.95" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.0094" y="83.27" size="0.4064" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="34.7" y="82" size="1" layer="25" ratio="6" rot="SR0"/>
 <attribute name="NAME" x="33" y="82" size="0.4064" layer="48" ratio="6" align="center"/>
 </element>
 <element name="Q3" library="Transistors" library_urn="urn:adsk.eagle:library:17314025" package="SON2X2" package3d_urn="urn:adsk.eagle:package:21780432/4" value="" x="41" y="82" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CSD15571Q2" x="134.98" y="-25.95" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.0094" y="83.27" size="0.4064" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="38" y="82" size="1" layer="25" ratio="6" rot="SR0"/>
 <attribute name="NAME" x="41" y="82" size="0.4064" layer="48" ratio="6" align="center"/>
 </element>
 <element name="R9" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="41" y="4" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-44.09" y="108.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="41" y="2.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="41" y="4" size="0.4064" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="41" y="2.73" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="41" y="5.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R13" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="CS_R0805" package3d_urn="urn:adsk.eagle:package:17292618/3" value="10 mOhm" x="30" y="88" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ6CWDR010V" x="80.8" y="0.37" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30" y="89.905" size="1.27" layer="25" align="center"/>
 <attribute name="NAME" x="30" y="88" size="0.6096" layer="48" align="center"/>
+<attribute name="NAME" x="30" y="85.905" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="30" y="86.095" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R14" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="36.1" y="67" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-68.04" y="-23.17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="37.37" y="67" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="36.1" y="67" size="0.4064" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="35.97" y="64.4" size="1" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="34.83" y="67" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="R15" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="37.2" y="67" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-66.94" y="-28.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="38.47" y="67" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="37.2" y="67" size="0.4064" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="37.27" y="64.4" size="1" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="35.93" y="67" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="R16" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="510k" x="38.3" y="67" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="142.44" y="126.69" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.03" y="67" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="38.3" y="67" size="0.4064" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="38.53" y="64.4" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="39.57" y="67" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R7" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="ALPS_PTM_LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K" x="79" y="34" smashed="yes" rot="R180">
-<attribute name="NAME" x="79" y="20.03" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="79" y="27.03" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="79" y="27.65" size="1.778" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="79" y="35.905" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R8" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="ALPS_PTM_LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K" x="97" y="34" smashed="yes" rot="R180">
-<attribute name="NAME" x="97" y="20.03" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="97" y="27.03" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="97" y="27.65" size="1.778" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="97" y="35.905" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R12" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="79" y="4" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-21.33" y="108.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79" y="2.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="79" y="4" size="0.4064" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="79" y="2.73" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="79" y="5.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R4" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="58" y="73" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="80.86" y="-20.98" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="58" y="74.27" size="1.27" layer="25" align="center"/>
 <attribute name="NAME" x="58" y="73" size="0.4064" layer="48" align="center"/>
+<attribute name="NAME" x="57.4" y="74.27" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="58" y="71.73" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R1" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="16k9" x="60" y="73" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="11.74" y="177.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="60" y="71.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="60" y="73" size="0.4064" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="60" y="71.73" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="60" y="74.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R2" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="62" y="73" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="11.2" y="182.22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="62" y="71.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="62" y="73" size="0.4064" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="62.8" y="74.23" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="62" y="74.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R3" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="53" y="27" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-57.47" y="-27.61" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="53.02" y="27" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="51.75" y="27" size="0.4064" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="51.6" y="26.92" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="50.48" y="27" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="R10" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="97" y="4" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="38.58" y="113.22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="97" y="2.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="97" y="4" size="0.4064" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="97" y="2.73" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="97" y="5.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R11" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="10k" x="23" y="4" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-39.23" y="113.22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="23" y="2.73" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="23" y="4" size="0.4064" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="23" y="2.73" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="23" y="5.27" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R5" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="ALPS_PTM_LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K" x="23" y="34" smashed="yes" rot="R180">
-<attribute name="NAME" x="23" y="20.03" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="23" y="27.03" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="23" y="27.65" size="1.778" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="23" y="35.905" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R6" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="ALPS_PTM_LONG" package3d_urn="urn:adsk.eagle:package:22300933/2" value="10K" x="41" y="34" smashed="yes" rot="R180">
-<attribute name="NAME" x="41" y="20.03" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="41" y="27.03" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="41" y="27.65" size="1.778" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="41" y="35.905" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
@@ -2279,8 +2280,8 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="60" y="26.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="60" y="26.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="B3F-4055" x="60" y="26.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="56.5075" y="26.75" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="60" y="26.75" size="0.8128" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="59.95" y="26.9925" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="63.4925" y="26.75" size="1.27" layer="27" rot="R90" align="center"/>
 <attribute name="VENDOR" value="Omron" x="60" y="26.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2288,481 +2289,472 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="49.89" y="108.79" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="49.89" y="108.79" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="B3F-4055" x="49.89" y="108.79" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="41" y="10.98" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 <attribute name="NAME" x="41" y="11" size="1.778" layer="48" ratio="10" rot="R90" align="center"/>
-<attribute name="NAME" x="48.62" y="11" size="1.27" layer="25" ratio="6" rot="SR90" align="center"/>
-<attribute name="VALUE" x="33.38" y="11" size="1.27" layer="21" ratio="6" rot="SR90" align="center"/>
 <attribute name="VENDOR" value="Omron" x="49.89" y="108.79" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SW3" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" package="SWITCH_B3F-4055" package3d_urn="urn:adsk.eagle:package:17006412/4" value="B3F-4055" x="97" y="11" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.75" y="31.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.75" y="31.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="B3F-4055" x="128.75" y="31.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="97" y="10.98" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 <attribute name="NAME" x="97" y="11" size="1.778" layer="48" ratio="10" rot="R90" align="center"/>
-<attribute name="NAME" x="104.62" y="11" size="1.27" layer="25" ratio="6" rot="SR90" align="center"/>
-<attribute name="VALUE" x="89.38" y="11" size="1.27" layer="21" ratio="6" rot="SR90" align="center"/>
 <attribute name="VENDOR" value="Omron" x="128.75" y="31.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SW4" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" package="SWITCH_B3F-4055" package3d_urn="urn:adsk.eagle:package:17006412/4" value="B3F-4055" x="23" y="11" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_Cory" x="54.75" y="46.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="54.75" y="46.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="B3F-4055" x="54.75" y="46.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="23" y="10.98" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 <attribute name="NAME" x="23" y="11" size="1.778" layer="48" ratio="10" rot="R90" align="center"/>
-<attribute name="NAME" x="30.62" y="11" size="1.27" layer="25" ratio="6" rot="SR90" align="center"/>
-<attribute name="VALUE" x="15.38" y="11" size="1.27" layer="21" ratio="6" rot="SR90" align="center"/>
 <attribute name="VENDOR" value="Omron" x="54.75" y="46.56" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SW5" library="buttons and switches" library_urn="urn:adsk.eagle:library:14616530" package="SWITCH_B3F-4055" package3d_urn="urn:adsk.eagle:package:17006412/4" value="B3F-4055" x="79" y="11" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_Cory" x="110.75" y="61.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="110.75" y="61.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="B3F-4055" x="110.75" y="61.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="79" y="10.98" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 <attribute name="NAME" x="79" y="11" size="1.778" layer="48" ratio="10" rot="R90" align="center"/>
-<attribute name="NAME" x="86.62" y="11" size="1.27" layer="25" ratio="6" rot="SR90" align="center"/>
-<attribute name="VALUE" x="71.38" y="11" size="1.27" layer="21" ratio="6" rot="SR90" align="center"/>
 <attribute name="VENDOR" value="Omron" x="110.75" y="61.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="$1_148_$_2020-08-01_13-42-32" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="" x="108" y="23.5" smashed="yes">
 <attribute name="VALUE" x="108" y="25.405" size="1.27" layer="25" align="center"/>
 </element>
-<element name="TP5" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="7" y="78" smashed="yes" rot="R180">
-<attribute name="VALUE" x="7" y="76.095" size="1.27" layer="25" rot="R180" align="center"/>
-</element>
-<element name="TP4" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="3.0" x="113" y="23.5" smashed="yes">
-<attribute name="VALUE" x="113" y="25.405" size="1.27" layer="25" align="center"/>
-</element>
+<element name="TP5" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="7" y="78" smashed="yes" rot="R180"/>
+<element name="TP4" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="3.0" x="113" y="23.5" smashed="yes"/>
 <element name="U2" library="LDOs" library_urn="urn:adsk.eagle:library:17045322" package="DRB0008B" package3d_urn="urn:adsk.eagle:package:17045929/4" value="TPS7A19" x="60" y="76" smashed="yes" rot="R90">
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/tps7a19.pdf?ts=1594646251403&amp;ref_url=https%253A%252F%252Fwww.google.com%252F" x="60" y="76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TPS7A1901DRBT" x="138.74" y="114.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="62.7" y="77.54" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 <attribute name="NAME" x="60" y="76" size="0.8128" layer="48" ratio="6" rot="R90" align="center"/>
-<attribute name="NAME" x="57.46" y="76" size="1.27" layer="25" ratio="6" rot="SR90" align="center"/>
 <attribute name="VALUE" x="62.54" y="76" size="1.27" layer="27" ratio="6" rot="SR90" align="center"/>
 </element>
 <element name="U1" library="stmicroelectronics" library_urn="urn:adsk.eagle:library:12979881" package="LPQFP-100" package3d_urn="urn:adsk.eagle:package:20456897/2" value="STM32G474" x="60" y="50" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Jessica" x="81.59" y="38.57" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="81.59" y="38.57" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="STM32G4_LPQFP100_T1" x="81.59" y="38.57" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60" y="59.652" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 <attribute name="NAME" x="60" y="50" size="2.54" layer="48" ratio="6" align="center"/>
-<attribute name="NAME" x="60" y="59.652" size="1.27" layer="25" ratio="6" rot="SR0" align="center"/>
-<attribute name="VALUE" x="60" y="40.348" size="1.27" layer="21" ratio="6" rot="SR0" align="center"/>
+<attribute name="VALUE" x="60" y="49.948" size="1.27" layer="21" ratio="6" rot="SR0" align="center"/>
 <attribute name="VENDOR" value="STMicroelectronics" x="81.59" y="38.57" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U6" library="Transistors drivers" library_urn="urn:adsk.eagle:library:17301757" package="VQFN-24-VIA" package3d_urn="urn:adsk.eagle:package:20600121/3" value="DRV8701VIA" x="37" y="72" smashed="yes">
 <attribute name="NAME" x="37" y="72" size="1.016" layer="48" ratio="6" align="center"/>
-<attribute name="NAME" x="37" y="75.175" size="1.27" layer="25" ratio="6" rot="SR0" align="center"/>
-<attribute name="VALUE" x="37" y="68.825" size="1.27" layer="21" ratio="6" rot="SR0" align="center"/>
+<attribute name="NAME" x="37" y="75.175" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 </element>
 <element name="U7" library="Current sensing" library_urn="urn:adsk.eagle:library:17229509" package="TSSOP-8" package3d_urn="urn:adsk.eagle:package:17280095/3" value="" x="30" y="94" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="INA240" x="116.36" y="190.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="32.641221875" y="96.3396" size="1" layer="25" ratio="6" rot="SR0" align="center"/>
 <attribute name="NAME" x="30" y="94" size="1.016" layer="48" ratio="6" rot="R90" align="center"/>
-<attribute name="NAME" x="27.46" y="94" size="1.27" layer="25" ratio="6" rot="SR90" align="center"/>
 <attribute name="VALUE" x="32.54" y="94" size="1.27" layer="27" ratio="6" rot="SR90" align="center"/>
 </element>
 <element name="U3" library="Voltage references" library_urn="urn:adsk.eagle:library:17280573" package="SOT-23-3" package3d_urn="urn:adsk.eagle:package:17280578/5" value="REF3330" x="69" y="38" smashed="yes" rot="R270">
-<attribute name="NAME" x="71.54" y="38" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="72.1" y="38.04" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="69" y="38" size="0.6096" layer="48" rot="R270" align="center"/>
 <attribute name="VALUE" x="66.46" y="38" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="U4" library="Voltage references" library_urn="urn:adsk.eagle:library:17280573" package="SOT-23-3" package3d_urn="urn:adsk.eagle:package:17280578/5" value="REF3318" x="7" y="85" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.54" y="85" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="10.4" y="85.04" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="7" y="85" size="0.6096" layer="48" rot="R270" align="center"/>
 <attribute name="VALUE" x="4.46" y="85" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="X1" library="resonators and oscillators" library_urn="urn:adsk.eagle:library:14612365" package="MURATA_SMD_3P" package3d_urn="urn:adsk.eagle:package:14612368/8" value="CSTNE" x="49.6" y="50.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.3" y="48.3" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="48.1" y="50.9" size="1" layer="25" rot="R180"/>
 <attribute name="NAME" x="49.6" y="50.3" size="0.6096" layer="48" rot="R90" align="center"/>
 <attribute name="VALUE" x="52.2" y="48.1" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="U5" library="InvenSence" library_urn="urn:adsk.eagle:library:14555391" package="14_PIN_LGA" package3d_urn="urn:adsk.eagle:package:14555394/6" value="ICM_20600" x="47" y="43" smashed="yes">
-<attribute name="NAME" x="45.34371875" y="44.65628125" size="1.01988125" layer="25"/>
+<attribute name="NAME" x="45.34371875" y="44.65628125" size="1" layer="25"/>
 <attribute name="NAME" x="47" y="43" size="0.6096" layer="48" align="center"/>
 </element>
 <element name="C20" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="49.6" y="43.361" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="50.6" y="38.361" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.5" y="42.231" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="49.6" y="43.361" size="0.4064" layer="48" align="center"/>
-<attribute name="NAME" x="49.6" y="44.631" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="49.6" y="42.091" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C21" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="47.949" y="40.405" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="52.949" y="41.405" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="47.779" y="38.005" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="47.949" y="40.405" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="46.679" y="40.405" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="49.219" y="40.405" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C22" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0603" package3d_urn="urn:adsk.eagle:package:14720896/5" value="4.7uF" x="49.149" y="40.005" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="59.149" y="35.005" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="49.279" y="37.305" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="49.149" y="40.005" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="47.879" y="40.005" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="50.419" y="40.005" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C23" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="10nF" x="47.049" y="40.405" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="57.049" y="41.405" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.279" y="38.005" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="47.049" y="40.405" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="45.779" y="40.405" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="48.319" y="40.405" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C47" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="93.19" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="93.19" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="93.19" y="81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="101.399140625" y="85" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="93.19" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="93.1911625" y="78.4096" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="90.635940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C48" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="97.19" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="97.19" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="89.19" y="87" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="99.649140625" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="97.19" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="97.1742" y="78.4074" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="94.635940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C49" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF" x="89.19" y="75" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL31B106KAHNNNE" x="73.19" y="93" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="91.095" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="89.19" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="89.155115625" y="78.06225625" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="87.285" y="75" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C50" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="86.81" y="75" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="72.81" y="74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="86.775140625" y="76.952259375" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="86.81" y="75" size="0.4064" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="88.08" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="85.54" y="75" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C44" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C0402" package3d_urn="urn:adsk.eagle:package:13360227/6" value="100nF" x="82.55" y="67" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="101.55" y="61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="80.8" y="66.98" size="1" layer="25" rot="R180" align="center"/>
 <attribute name="NAME" x="82.55" y="67" size="0.4064" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="81.28" y="67" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="83.82" y="67" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R20" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="100" x="70.5" y="59" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="94.5" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="69.23" y="59" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="70.5" y="59" size="0.4064" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="70.43" y="61.6" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="71.77" y="59" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R19" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="100" x="72" y="59" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="101" y="44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="70.73" y="59" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="72" y="59" size="0.4064" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="71.93" y="61.6" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="73.27" y="59" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R18" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="100" x="73.5" y="59" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="107.5" y="40" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="72.23" y="59" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="73.5" y="59" size="0.4064" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="73.43" y="61.6" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="74.77" y="59" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="U8" library="Transistors drivers" library_urn="urn:adsk.eagle:library:17301757" package="QFN_293Q_STM" package3d_urn="urn:adsk.eagle:package:21754075/5" value="L2293Q" x="83" y="72" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="L2293Q" x="91" y="111" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="86.2766" y="68.635" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="82.2234" y="75.265" size="1" layer="25" ratio="6" rot="SR0"/>
 </element>
 <element name="R17" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="100" x="75" y="59" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="109" y="53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="73.73" y="59" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="75" y="59" size="0.4064" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="74.93" y="61.6" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="76.27" y="59" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R21" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="100" x="78" y="59" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="117" y="49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="76.73" y="59" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="78" y="59" size="0.4064" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="77.93" y="61.6" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="34.27" y="91" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R22" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="R0402" package3d_urn="urn:adsk.eagle:package:15234387/3" value="100" x="76.5" y="59" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="120.5" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="75.23" y="59" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="NAME" x="76.5" y="59" size="0.4064" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="76.43" y="61.6" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="77.77" y="59" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C3" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="65" y="70" smashed="yes">
 <attribute name="DATASHEET" value="" x="66.27" y="70" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="66.27" y="70" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="65" y="72.459140625" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="65" y="70" size="0.8128" layer="48" align="center"/>
-<attribute name="NAME" x="65" y="72.459140625" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="65.002540625" y="67.445940625" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C4" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1206" package3d_urn="urn:adsk.eagle:package:14720916/5" value="10uF" x="58.9" y="65.3" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL31B106KAHNNNE" x="58.9" y="62.76" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="57.1" y="65.305" size="1" layer="25" align="center"/>
 <attribute name="NAME" x="58.9" y="65.3" size="0.8128" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="60.805" y="65.3" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="56.995" y="65.3" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C28" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="26" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="26" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="26" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.459140625" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="26" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="26" y="78.3" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="23.445940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C35" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="43" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="43" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="43" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="45.459140625" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="43" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="43" y="78.3" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="40.445940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C46" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="77" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="77" y="73.73" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="77" y="73.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="79.459140625" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="77" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="77" y="78.459140625" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="74.445940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C45" library="Capacitors" library_urn="urn:adsk.eagle:library:13360199" package="C1210" package3d_urn="urn:adsk.eagle:package:21754708/2" value="22uF" x="73" y="75" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="" x="73" y="73.73" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM32ER61C476ME15L" x="73" y="73.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="75.459140625" y="75" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="NAME" x="73" y="75" size="0.8128" layer="48" rot="R270" align="center"/>
+<attribute name="NAME" x="73" y="78.459140625" size="1" layer="25" align="center"/>
 <attribute name="VALUE" x="70.445940625" y="74.997459375" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="J15" library="Terminal blocks" library_urn="urn:adsk.eagle:library:16833725" package="DG301-4P" package3d_urn="urn:adsk.eagle:package:16838204/2" value="DG301-4P" x="96" y="93" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="96" y="93" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="96" y="87.285" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="NAME" x="96" y="91.73" size="1.524" layer="48" rot="R180" align="center"/>
+<attribute name="NAME" x="96" y="97.285" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="96" y="97.445" size="1.27" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="J7" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B10B-PH-K" package3d_urn="urn:adsk.eagle:package:13143947/6" value="B10B-PH" x="88" y="50" smashed="yes" rot="R90">
 <attribute name="LABEL" value="" x="88" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="89.906" y="50" size="1" layer="25" ratio="18" rot="R90" align="center"/>
 <attribute name="NAME" x="88" y="50" size="0.8128" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="85.206" y="50" size="1.016" layer="25" ratio="18" rot="R90" align="center"/>
 <attribute name="VALUE" x="91.81" y="50" size="1.016" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J8" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B10B-PH-K" package3d_urn="urn:adsk.eagle:package:13143947/6" value="B10B-PH" x="7" y="50" smashed="yes" rot="R270">
 <attribute name="LABEL" value="" x="7" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="4.794" y="50" size="1" layer="25" ratio="18" rot="R270" align="center"/>
 <attribute name="NAME" x="7" y="50" size="0.8128" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="9.794" y="50" size="1.016" layer="25" ratio="18" rot="R270" align="center"/>
 <attribute name="VALUE" x="3.19" y="50" size="1.016" layer="27" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="J9" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B10B-PH-K" package3d_urn="urn:adsk.eagle:package:13143947/6" value="B10B-PH" x="32" y="50" smashed="yes" rot="R270">
 <attribute name="LABEL" value="" x="32" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="29.794" y="50" size="1" layer="25" ratio="18" rot="R270" align="center"/>
 <attribute name="NAME" x="32" y="50" size="0.8128" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="34.794" y="50" size="1.016" layer="25" ratio="18" rot="R270" align="center"/>
 <attribute name="VALUE" x="28.19" y="50" size="1.016" layer="27" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="J6" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B10B-PH-K" package3d_urn="urn:adsk.eagle:package:13143947/6" value="B10B-PH" x="113" y="50" smashed="yes" rot="R90">
 <attribute name="LABEL" value="" x="113" y="50" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="114.856" y="50" size="1" layer="25" ratio="18" rot="R90" align="center"/>
 <attribute name="NAME" x="113" y="50" size="0.8128" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="109.956" y="48" size="1.016" layer="25" ratio="18" rot="R90" align="center"/>
 <attribute name="VALUE" x="116.81" y="50" size="1.016" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J10" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="7" y="30" smashed="yes" rot="R270">
 <attribute name="LABEL" value="" x="7" y="30" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="7" y="30" size="0.8128" layer="48" rot="R270" align="center"/>
 <attribute name="NAME" x="9.794" y="30" size="1.016" layer="27" ratio="18" rot="R270" align="center"/>
+<attribute name="NAME" x="7" y="30" size="0.8128" layer="48" rot="R270" align="center"/>
 <attribute name="VALUE" x="3.19" y="30" size="1.016" layer="27" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="J11" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="7" y="17" smashed="yes" rot="R270">
 <attribute name="LABEL" value="" x="7" y="17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="7" y="17" size="0.8128" layer="48" rot="R270" align="center"/>
 <attribute name="NAME" x="9.794" y="17" size="1.016" layer="27" ratio="18" rot="R270" align="center"/>
+<attribute name="NAME" x="7" y="17" size="0.8128" layer="48" rot="R270" align="center"/>
 <attribute name="VALUE" x="3.19" y="17" size="1.016" layer="27" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="J12" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="113" y="30" smashed="yes" rot="R90">
 <attribute name="LABEL" value="" x="113" y="30" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="113" y="30" size="0.8128" layer="48" rot="R90" align="center"/>
 <attribute name="NAME" x="110.206" y="30" size="1.016" layer="27" ratio="18" rot="R90" align="center"/>
+<attribute name="NAME" x="113" y="30" size="0.8128" layer="48" rot="R90" align="center"/>
 <attribute name="VALUE" x="116.81" y="30" size="1.016" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J13" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="113" y="17" smashed="yes" rot="R90">
 <attribute name="LABEL" value="" x="113" y="17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="113" y="17" size="0.8128" layer="48" rot="R90" align="center"/>
 <attribute name="NAME" x="110.206" y="17" size="1.016" layer="27" ratio="18" rot="R90" align="center"/>
+<attribute name="NAME" x="113" y="17" size="0.8128" layer="48" rot="R90" align="center"/>
 <attribute name="VALUE" x="116.81" y="17" size="1.016" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J5" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="7" y="70" smashed="yes" rot="R270">
 <attribute name="LABEL" value="" x="7" y="70" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="7" y="70" size="0.8128" layer="48" rot="R270" align="center"/>
 <attribute name="NAME" x="9.794" y="70" size="1.016" layer="27" ratio="18" rot="R270" align="center"/>
+<attribute name="NAME" x="7" y="70" size="0.8128" layer="48" rot="R270" align="center"/>
 <attribute name="VALUE" x="3.19" y="70" size="1.016" layer="27" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="J2" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="113" y="70" smashed="yes" rot="R90">
 <attribute name="LABEL" value="" x="113" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="113" y="70" size="0.8128" layer="48" rot="R90" align="center"/>
 <attribute name="NAME" x="110.206" y="70" size="1.016" layer="27" ratio="18" rot="R90" align="center"/>
+<attribute name="NAME" x="113" y="70" size="0.8128" layer="48" rot="R90" align="center"/>
 <attribute name="VALUE" x="116.81" y="70" size="1.016" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J3" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B4B-PH-K" package3d_urn="urn:adsk.eagle:package:13143912/5" value="B4B-PH" x="60" y="13" smashed="yes" rot="R180">
 <attribute name="LABEL" value="" x="60" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="60" y="14.806" size="1" layer="25" ratio="18" rot="R180" align="center"/>
 <attribute name="NAME" x="60" y="13" size="0.8128" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="60" y="10.206" size="1.016" layer="25" ratio="18" rot="R180" align="center"/>
 <attribute name="VALUE" x="60" y="16.81" size="1.016" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="J4" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B6B-PH-K" package3d_urn="urn:adsk.eagle:package:13143946/5" value="B6B-PH" x="19" y="97" smashed="yes" rot="R180">
 <attribute name="LABEL" value="" x="19" y="97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="19" y="99.106" size="1" layer="25" ratio="18" rot="R180" align="center"/>
 <attribute name="NAME" x="19" y="97" size="0.8128" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="19" y="94.206" size="1.016" layer="25" ratio="18" rot="R180" align="center"/>
 <attribute name="VALUE" x="19" y="100.81" size="1.016" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="J14" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B6B-PH-K" package3d_urn="urn:adsk.eagle:package:13143946/5" value="B6B-PH" x="41" y="97" smashed="yes" rot="R180">
 <attribute name="LABEL" value="" x="41" y="97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="41" y="99.006" size="1" layer="25" ratio="18" rot="R180" align="center"/>
 <attribute name="NAME" x="41" y="97" size="0.8128" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="41" y="94.206" size="1.016" layer="25" ratio="18" rot="R180" align="center"/>
 <attribute name="VALUE" x="41" y="100.81" size="1.016" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="D3" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="57" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="59.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="57.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="57" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="55.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D7" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="53" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="55.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="53.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="53" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="51.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D11" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="49" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="51.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="49.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="49" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="47.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D15" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="45" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="47.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="45.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="45" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="43.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D5" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="55" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="57.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="55.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="55" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="53.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D9" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="51" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="53.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="51.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="51" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="49.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D13" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="47" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="49.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="47.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="47" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="45.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D17" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="11.25" y="43" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.79" y="45.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.99" y="43.04" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="11.25" y="43" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.52" y="41.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D22" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="47" smashed="yes">
-<attribute name="NAME" x="81.21" y="44.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="46.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="47" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="48.27" size="1.27" layer="27"/>
 </element>
 <element name="D24" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="49" smashed="yes">
-<attribute name="NAME" x="81.21" y="46.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="48.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="49" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="50.27" size="1.27" layer="27"/>
 </element>
 <element name="D19" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="57" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="59.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="56.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="57" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="55.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D23" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="53" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="55.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="52.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="53" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="51.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D27" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="49" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="51.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="48.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="49" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="47.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D31" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="45" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="47.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="44.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="45" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="43.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D21" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="55" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="57.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="54.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="55" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="53.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D25" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="51" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="53.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="50.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="51" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="49.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D29" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="47" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="49.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="46.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="47" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="45.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D33" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="36.25" y="43" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.79" y="45.54" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.79" y="42.94" size="1" layer="25" rot="R180" align="center-right"/>
 <attribute name="NAME" x="36.25" y="43" size="0.635" layer="48" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.52" y="41.73" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D26" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="51" smashed="yes">
-<attribute name="NAME" x="81.21" y="48.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="50.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="51" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="52.27" size="1.27" layer="27"/>
 </element>
 <element name="D28" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="53" smashed="yes">
-<attribute name="NAME" x="81.21" y="50.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="52.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="53" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="54.27" size="1.27" layer="27"/>
 </element>
 <element name="D2" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="43" smashed="yes">
-<attribute name="NAME" x="106.21" y="40.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="42.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="43" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="44.27" size="1.27" layer="27"/>
 </element>
 <element name="D4" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="45" smashed="yes">
-<attribute name="NAME" x="106.21" y="42.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="44.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="45" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="46.27" size="1.27" layer="27"/>
 </element>
 <element name="D6" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="47" smashed="yes">
-<attribute name="NAME" x="106.21" y="44.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="46.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="47" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="48.27" size="1.27" layer="27"/>
 </element>
 <element name="D8" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="49" smashed="yes">
-<attribute name="NAME" x="106.21" y="46.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="48.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="49" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="50.27" size="1.27" layer="27"/>
 </element>
 <element name="D10" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="51" smashed="yes">
-<attribute name="NAME" x="106.21" y="48.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="50.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="51" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="52.27" size="1.27" layer="27"/>
 </element>
 <element name="D12" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="53" smashed="yes">
-<attribute name="NAME" x="106.21" y="50.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="52.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="53" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="54.27" size="1.27" layer="27"/>
 </element>
 <element name="D14" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="55" smashed="yes">
-<attribute name="NAME" x="106.21" y="52.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="54.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="55" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="56.27" size="1.27" layer="27"/>
 </element>
 <element name="D16" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="108.75" y="57" smashed="yes">
-<attribute name="NAME" x="106.21" y="54.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="106.21" y="56.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="108.75" y="57" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="107.48" y="58.27" size="1.27" layer="27"/>
 </element>
 <element name="D18" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="43" smashed="yes">
-<attribute name="NAME" x="81.21" y="40.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="42.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="43" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="44.27" size="1.27" layer="27"/>
 </element>
 <element name="D20" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="45" smashed="yes">
-<attribute name="NAME" x="81.21" y="42.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="44.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="45" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="46.27" size="1.27" layer="27"/>
 </element>
-<element name="PAD1" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="SMD_PAD" package3d_urn="urn:adsk.eagle:package:16041846/4" value="" x="70" y="96" smashed="yes" rot="MR180">
+<element name="POS" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="SMD_PAD" package3d_urn="urn:adsk.eagle:package:16041846/4" value="" x="70" y="96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="68.5" y="98.5" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="21" x="70" y="96" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="70" y="96" size="0.0254" layer="28" rot="MR180"/>
 </element>
-<element name="PAD2" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="SMD_PAD" package3d_urn="urn:adsk.eagle:package:16041846/4" value="" x="50" y="96" smashed="yes" rot="MR180">
+<element name="NEG" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="SMD_PAD" package3d_urn="urn:adsk.eagle:package:16041846/4" value="" x="50" y="96" smashed="yes" rot="MR180">
 <attribute name="NAME" x="48.5" y="98.5" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="21" x="50" y="96" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="50" y="96" size="0.0254" layer="28" rot="MR180"/>
 </element>
 <element name="D30" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="55" smashed="yes">
-<attribute name="NAME" x="81.21" y="52.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="54.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="55" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="56.27" size="1.27" layer="27"/>
 </element>
 <element name="D32" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" package="LED-0805" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue" x="83.75" y="57" smashed="yes">
-<attribute name="NAME" x="81.21" y="54.46" size="1.27" layer="25"/>
+<attribute name="NAME" x="81.31" y="56.96" size="1" layer="25" align="center-right"/>
 <attribute name="NAME" x="83.75" y="57" size="0.635" layer="48" align="center"/>
 <attribute name="VALUE" x="82.48" y="58.27" size="1.27" layer="27"/>
 </element>
@@ -2774,120 +2766,114 @@ design rules under a new name.</description>
 </element>
 <element name="JP9" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X04" package3d_urn="urn:adsk.eagle:package:16530062/1" value="" x="96" y="86" smashed="yes" rot="R180">
 <attribute name="NAME" x="96" y="86" size="1.27" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="101.1562" y="84.1712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="97.128259375" y="89.79528125" size="1" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="91" x="96" y="86" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="101.08" y="89.175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP8" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X06" package3d_urn="urn:adsk.eagle:package:15093418/3" value="" x="41" y="92" smashed="yes" rot="R180">
 <attribute name="NAME" x="41" y="92" size="1.016" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="48.6962" y="90.1712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="41.0104" y="94.105159375" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="79" x="41" y="92" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="48.62" y="95.175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP2" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X06" package3d_urn="urn:adsk.eagle:package:15093418/3" value="" x="19" y="92" smashed="yes" rot="R180">
 <attribute name="NAME" x="19" y="92" size="1.016" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="26.6962" y="90.1712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="19.0104" y="94.084078125" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="79" x="19" y="92" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.62" y="95.175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP7" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X03" package3d_urn="urn:adsk.eagle:package:16050276/2" value="" x="108" y="17" smashed="yes" rot="R90">
 <attribute name="NAME" x="108" y="17" size="0.762" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="106.1712" y="13.1138" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="110.5712" y="15.8138" size="1" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="92" x="108" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="111.175" y="13.19" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP3" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X03" package3d_urn="urn:adsk.eagle:package:16050276/2" value="" x="12" y="70" smashed="yes" rot="R270">
 <attribute name="NAME" x="12" y="70" size="0.762" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="13.8288" y="73.8862" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="10.3712" y="68.9138" size="1" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="92" x="12" y="70" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.825" y="73.81" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP1" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X03" package3d_urn="urn:adsk.eagle:package:16050276/2" value="" x="108" y="70" smashed="yes" rot="R90">
 <attribute name="NAME" x="108" y="70" size="0.762" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="106.1712" y="66.1138" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="109.6288" y="70.9862" size="1" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="92" x="108" y="70" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="111.175" y="66.19" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP6" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X03" package3d_urn="urn:adsk.eagle:package:16050276/2" value="" x="108" y="30" smashed="yes" rot="R90">
 <attribute name="NAME" x="108" y="30" size="0.762" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="106.1712" y="26.1138" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="110.5712" y="28.9138" size="1" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="92" x="108" y="30" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="111.175" y="26.19" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP5" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X03" package3d_urn="urn:adsk.eagle:package:16050276/2" value="" x="12" y="17" smashed="yes" rot="R270">
 <attribute name="NAME" x="12" y="17" size="0.762" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="13.8288" y="20.8862" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="9.4288" y="18.0862" size="1" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="92" x="12" y="17" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.825" y="20.81" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP4" library="commonly used connectors" library_urn="urn:adsk.eagle:library:12979860" package="1X03" package3d_urn="urn:adsk.eagle:package:16050276/2" value="" x="12" y="30" smashed="yes" rot="R270">
 <attribute name="NAME" x="12" y="30" size="0.762" layer="48" rot="R270" align="center"/>
-<attribute name="NAME" x="13.8288" y="33.8862" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="9.4288" y="30.9862" size="1" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="92" x="12" y="30" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.825" y="33.81" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="RM1" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="108.75" y="40" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="120.75" y="32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="105.35" y="40.04" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="NAME" x="108.75" y="40" size="0.6096" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="108.75" y="42.54" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="108.75" y="37.46" size="1.27" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="RM3" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="108.75" y="60" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="96.75" y="68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="105.15" y="59.96" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="NAME" x="108.75" y="60" size="0.6096" layer="48" align="center"/>
-<attribute name="NAME" x="108.75" y="57.46" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="108.75" y="62.54" size="1.27" layer="27" ratio="10" align="center"/>
 </element>
 <element name="RM5" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="83.75" y="40" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="95.75" y="32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="80.45" y="40.04" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="NAME" x="83.75" y="40" size="0.6096" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="83.75" y="42.54" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="83.75" y="37.46" size="1.27" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="RM7" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="83.75" y="60" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="71.75" y="68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.45" y="59.96" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="NAME" x="83.75" y="60" size="0.6096" layer="48" align="center"/>
-<attribute name="NAME" x="83.75" y="57.46" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="83.75" y="62.54" size="1.27" layer="27" ratio="10" align="center"/>
 </element>
 <element name="RM2" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="11.25" y="60" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-0.75" y="68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="14.85" y="59.96" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="NAME" x="11.25" y="60" size="0.6096" layer="48" align="center"/>
-<attribute name="NAME" x="11.25" y="57.46" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="11.25" y="62.54" size="1.27" layer="27" ratio="10" align="center"/>
 </element>
 <element name="RM4" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="11.25" y="40" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="35.25" y="24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15.05" y="40.04" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="NAME" x="11.25" y="40" size="0.6096" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="11.25" y="42.54" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="11.25" y="37.46" size="1.27" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="RM6" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="36.25" y="60" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="0.25" y="84" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.75" y="60.06" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="NAME" x="36.25" y="60" size="0.6096" layer="48" align="center"/>
-<attribute name="NAME" x="36.25" y="57.46" size="1.27" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="36.25" y="62.54" size="1.27" layer="27" ratio="10" align="center"/>
 </element>
 <element name="RM8" library="Resistors" library_urn="urn:adsk.eagle:library:13360588" package="0603-ARC" package3d_urn="urn:adsk.eagle:package:14667556/3" value="RES_ARRAY0603" x="36.25" y="40" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="84.25" y="8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.75" y="40.04" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="NAME" x="36.25" y="40" size="0.6096" layer="48" rot="R180" align="center"/>
-<attribute name="NAME" x="36.25" y="42.54" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="36.25" y="37.46" size="1.27" layer="27" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="J1" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="78.5" y="92" smashed="yes" rot="R90">
-<attribute name="LABEL" value="" x="84.5" y="92" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="78.5" y="92" size="0.8128" layer="48" rot="R90" align="center"/>
-<attribute name="NAME" x="75.706" y="92" size="1.016" layer="27" ratio="18" rot="R90" align="center"/>
-<attribute name="VALUE" x="82.31" y="92" size="1.016" layer="27" ratio="10" rot="R90" align="center"/>
-</element>
-<element name="TP1" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="12" y="23.5" smashed="yes">
-<attribute name="VALUE" x="12" y="25.405" size="1.27" layer="25" align="center"/>
-</element>
-<element name="TP2" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="7" y="23.5" smashed="yes">
-<attribute name="VALUE" x="7" y="25.405" size="1.27" layer="25" align="center"/>
-</element>
-<element name="TP3" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="12" y="78" smashed="yes">
-<attribute name="VALUE" x="12" y="79.905" size="1.27" layer="25" align="center"/>
+<element name="TP1" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="12" y="23.5" smashed="yes"/>
+<element name="TP2" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="7" y="23.5" smashed="yes"/>
+<element name="TP3" library="testing" library_urn="urn:adsk.eagle:library:13096589" package="TP1.27MM_MASK_SILKSCREEN" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8" x="12" y="78" smashed="yes"/>
+<element name="J1" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" package="B3B-PH-K" package3d_urn="urn:adsk.eagle:package:13143941/5" value="B3B-PH" x="78.8" y="92.2" smashed="yes" rot="R90">
+<attribute name="LABEL" value="" x="78.8" y="92.2" size="1" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="78.8" y="92.2" size="0.8128" layer="48" rot="R90" align="center"/>
+<attribute name="NAME" x="76.006" y="92.2" size="1.016" layer="27" ratio="18" rot="R90" align="center"/>
+<attribute name="VALUE" x="82.61" y="92.2" size="1.016" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
 </elements>
 <signals>
@@ -3838,7 +3824,7 @@ design rules under a new name.</description>
 <contactref element="J5" pad="3"/>
 <contactref element="J2" pad="3"/>
 <contactref element="J3" pad="4"/>
-<contactref element="PAD2" pad="1"/>
+<contactref element="NEG" pad="1"/>
 <contactref element="JP8" pad="5"/>
 <contactref element="JP2" pad="6"/>
 <contactref element="JP3" pad="3"/>
@@ -3879,7 +3865,6 @@ design rules under a new name.</description>
 <contactref element="RM8" pad="2"/>
 <contactref element="RM8" pad="3"/>
 <contactref element="RM8" pad="4"/>
-<contactref element="J1" pad="3"/>
 <wire x1="50" y1="45.418" x2="49.9816" y2="45.3564" width="0.2" layer="1"/>
 <wire x1="50.9" y1="45.3564" x2="49.9816" y2="45.3564" width="0.2" layer="1"/>
 <via x="50.9" y="45.3564" extent="1-16" drill="0.3"/>
@@ -4583,10 +4568,9 @@ design rules under a new name.</description>
 <vertex x="69" y="99"/>
 <vertex x="71" y="101"/>
 <vertex x="77" y="101"/>
-<vertex x="78" y="100"/>
-<vertex x="78" y="94"/>
-<vertex x="79" y="93"/>
-<vertex x="85" y="93"/>
+<vertex x="77" y="94.5"/>
+<vertex x="78.2" y="93.3"/>
+<vertex x="85.3" y="93.3"/>
 <vertex x="88" y="96"/>
 <vertex x="104" y="96"/>
 <vertex x="109" y="91"/>
@@ -4792,6 +4776,7 @@ design rules under a new name.</description>
 <via x="42" y="46" extent="1-16" drill="0.3"/>
 <via x="105" y="63" extent="1-16" drill="0.3"/>
 <via x="17" y="63" extent="1-16" drill="0.3"/>
+<contactref element="J1" pad="3"/>
 <wire x1="36.3" y1="71.3" x2="37" y2="72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
@@ -4844,7 +4829,6 @@ design rules under a new name.</description>
 <contactref element="J3" pad="1"/>
 <contactref element="JP8" pad="2"/>
 <contactref element="JP2" pad="1"/>
-<contactref element="J1" pad="2"/>
 <wire x1="49.2" y1="45.418" x2="49.02" y2="45.318" width="0.2" layer="1"/>
 <wire x1="49.02" y1="45.318" x2="48.2384" y2="45.318" width="0.2" layer="1"/>
 <wire x1="48.2384" y1="45.318" x2="48.2" y2="45.3564" width="0.2" layer="1"/>
@@ -5066,7 +5050,6 @@ design rules under a new name.</description>
 <wire x1="49.37829375" y1="42.25" x2="48.16" y2="42.25" width="0.2" layer="1"/>
 <wire x1="51.1564" y1="39.6564" x2="51.1564" y2="40.47189375" width="0.2" layer="1"/>
 <wire x1="61" y1="70" x2="63.9" y2="72.9" width="0.3" layer="16"/>
-<wire x1="79.9" y1="92" x2="78.5" y2="92" width="0.3" layer="16"/>
 <wire x1="63.9" y1="72.9" x2="73.5" y2="72.9" width="0.3" layer="16"/>
 <wire x1="73.5" y1="72.9" x2="81.3" y2="80.7" width="0.3" layer="16"/>
 <wire x1="81.3" y1="80.7" x2="81.3" y2="90.6" width="0.3" layer="16"/>
@@ -5160,6 +5143,8 @@ design rules under a new name.</description>
 <vertex x="25.4" y="87.4"/>
 <vertex x="20" y="82"/>
 </polygon>
+<contactref element="J1" pad="2"/>
+<wire x1="79.9" y1="92" x2="78.8" y2="92.2" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RST">
 <contactref element="SW1" pad="1"/>
@@ -5433,10 +5418,9 @@ design rules under a new name.</description>
 <contactref element="C49" pad="1"/>
 <contactref element="C46" pad="1"/>
 <contactref element="C45" pad="1"/>
-<contactref element="PAD1" pad="1"/>
+<contactref element="POS" pad="1"/>
 <wire x1="35.1" y1="73.25" x2="33.5" y2="73.25" width="0.2" layer="1"/>
 <wire x1="33.5" y1="73.25" x2="33" y2="73.75" width="0.2" layer="1"/>
-<contactref element="J1" pad="1"/>
 <via x="46" y="80" extent="1-16" drill="0.3"/>
 <via x="47" y="80" extent="1-16" drill="0.3"/>
 <via x="48" y="80" extent="1-16" drill="0.3"/>
@@ -5634,6 +5618,7 @@ design rules under a new name.</description>
 <vertex x="71" y="93.5"/>
 <vertex x="65.1" y="87.6"/>
 </polygon>
+<contactref element="J1" pad="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U2" pad="3"/>
@@ -6646,6 +6631,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library

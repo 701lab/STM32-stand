@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4659,8 +4659,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="D16" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
 <part name="D18" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
 <part name="D20" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
-<part name="PAD1" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="SMD_PAD" device="" package3d_urn="urn:adsk.eagle:package:16041846/4"/>
-<part name="PAD2" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="SMD_PAD" device="" package3d_urn="urn:adsk.eagle:package:16041846/4"/>
+<part name="POS" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="SMD_PAD" device="" package3d_urn="urn:adsk.eagle:package:16041846/4"/>
+<part name="NEG" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="SMD_PAD" device="" package3d_urn="urn:adsk.eagle:package:16041846/4"/>
 <part name="D30" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
 <part name="D32" library="Semiconductor_devices" library_urn="urn:adsk.eagle:library:13440980" deviceset="LED0805" device="" package3d_urn="urn:adsk.eagle:package:14160208/7" value="Blue"/>
 <part name="GND23" library="Hople_supply" library_urn="urn:adsk.eagle:library:16851455" deviceset="GND" device=""/>
@@ -4691,10 +4691,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="VDD5" library="Hople_supply" library_urn="urn:adsk.eagle:library:16851455" deviceset="VDD" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J1" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" deviceset="B3B-PH" device="" package3d_urn="urn:adsk.eagle:package:13143941/5"/>
 <part name="TP1" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="TEST_PAD" device="-[1.27MM_SK]" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8"/>
 <part name="TP2" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="TEST_PAD" device="-[1.27MM_SK]" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8"/>
 <part name="TP3" library="testing" library_urn="urn:adsk.eagle:library:13096589" deviceset="TEST_PAD" device="-[1.27MM_SK]" package3d_urn="urn:adsk.eagle:package:15234684/3" value="1.8"/>
+<part name="J1" library="con-jst-ph" library_urn="urn:adsk.eagle:library:13143856" deviceset="B3B-PH" device="" package3d_urn="urn:adsk.eagle:package:13143941/5"/>
 </parts>
 <sheets>
 <sheet>
@@ -5139,11 +5139,11 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="J4" gate="G$1" x="368.3" y="170.18" smashed="yes" grouprefs="MICROCONTROLLER_AND_INTERFACES">
 <attribute name="VALUE" x="367.03" y="160.02" size="1.778" layer="95"/>
 </instance>
-<instance part="PAD1" gate="1" x="16.51" y="231.14" smashed="yes" grouprefs="POWER_STAGE">
+<instance part="POS" gate="1" x="16.51" y="231.14" smashed="yes" grouprefs="POWER_STAGE">
 <attribute name="NAME" x="15.367" y="232.9942" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.367" y="227.838" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD2" gate="1" x="16.51" y="226.06" smashed="yes" grouprefs="POWER_STAGE">
+<instance part="NEG" gate="1" x="16.51" y="226.06" smashed="yes" grouprefs="POWER_STAGE">
 <attribute name="NAME" x="15.367" y="227.9142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.367" y="222.758" size="1.778" layer="96"/>
 </instance>
@@ -5196,9 +5196,6 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <instance part="+3V29" gate="G$1" x="17.78" y="213.36" smashed="yes">
 <attribute name="VALUE" x="15.24" y="214.63" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="30.48" y="204.47" smashed="yes">
-<attribute name="VALUE" x="29.21" y="196.85" size="1.778" layer="95"/>
-</instance>
 <instance part="TP1" gate="G$1" x="96.52" y="158.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="96.52" y="156.21" size="1.27" layer="95" align="center-left"/>
 </instance>
@@ -5207,6 +5204,9 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 </instance>
 <instance part="TP3" gate="G$1" x="123.19" y="208.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="123.19" y="205.74" size="1.27" layer="95" align="center-left"/>
+</instance>
+<instance part="J1" gate="G$1" x="30.48" y="204.47" smashed="yes">
+<attribute name="VALUE" x="29.21" y="196.85" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -6129,7 +6129,7 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <wire x1="134.62" y1="223.52" x2="134.62" y2="219.71" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <wire x1="134.62" y1="219.71" x2="123.19" y2="219.71" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <junction x="123.19" y="219.71" grouprefs="POWER_STAGE"/>
-<pinref part="PAD2" gate="1" pin="P"/>
+<pinref part="NEG" gate="1" pin="P"/>
 <wire x1="27.94" y1="226.06" x2="19.05" y2="226.06" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <pinref part="TP3" gate="G$1" pin="P$1"/>
 <wire x1="123.19" y1="210.82" x2="123.19" y2="214.63" width="0.1524" layer="91"/>
@@ -6509,8 +6509,8 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <segment>
 <wire x1="17.78" y1="210.82" x2="17.78" y2="204.47" width="0.1524" layer="91"/>
 <pinref part="+3V29" gate="G$1" pin="+3V3"/>
-<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="204.47" x2="17.78" y2="204.47" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -6727,14 +6727,14 @@ adapter (from 12V to 5V) or from ST-Link 3.3V power line </text>
 <wire x1="43.18" y1="227.33" x2="43.18" y2="229.87" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 <junction x="43.18" y="229.87" grouprefs="POWER_STAGE"/>
 <junction x="25.4" y="231.14" grouprefs="POWER_STAGE"/>
-<pinref part="PAD1" gate="1" pin="P"/>
+<pinref part="POS" gate="1" pin="P"/>
 <wire x1="25.4" y1="231.14" x2="19.05" y2="231.14" width="0.1524" layer="91" grouprefs="POWER_STAGE"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="210.82" x2="22.86" y2="207.01" width="0.1524" layer="91"/>
 <pinref part="VDD5" gate="G$1" pin="VDD"/>
-<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="207.01" x2="25.4" y2="207.01" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$21" class="0">
