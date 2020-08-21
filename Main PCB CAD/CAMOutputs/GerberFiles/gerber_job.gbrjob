@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-08-21T17:47:21Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.49,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "STM32 control board"
+        },
+        "Owner": "  <denis.jaskevich@yandex.by>",
+        "Size": {
+            "X": 120,
+            "Y": 104
+        }
+    }
+}
