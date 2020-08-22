@@ -30,12 +30,12 @@
 *.crc
 *.crs
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.xln
+#*.dri
+#*.drl
+#*.gpi
+#*.pls
+#*.ger
+#*.xln
 
 *.drd
 *.drd.*
